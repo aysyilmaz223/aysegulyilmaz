@@ -16,7 +16,6 @@ const groups = [
     label: 'Yazılar',
     items: [
       { href: '/yazdiklarim', label: 'Yazdıklarım' },
-      { href: '/okuduklarim', label: 'Okuduklarım' },
       { href: '/dusunduren-sozler', label: 'Düşündüren Sözler' },
     ],
   },
@@ -67,6 +66,11 @@ const email = 'aysyilmaz@gmail.com';
             </li>
           ))
         }
+        <li class="nav__group">
+          <a class="nav__grouplabel nav__grouplabel--link" href={withBase('/okuduklarim')}>
+            Okuduklarım
+          </a>
+        </li>
         <li class="nav__group">
           <a class="nav__grouplabel nav__grouplabel--link" href={blogUrl} target="_blank" rel="noopener">
             Blog ↗
