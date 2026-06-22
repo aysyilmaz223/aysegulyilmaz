@@ -1,0 +1,25 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import PageHeader from '../components/PageHeader.astro';
+import QuoteCard from '../components/QuoteCard.astro';
+import sozler from '../data/sozler.json';
+---
+
+<BaseLayout
+  title="Düşündüren Sözler"
+  description="Aklımda kalan, üzerine düşündüğüm sözler."
+>
+  <PageHeader
+    eyebrow="Yazılar"
+    title="Düşündüren Sözler"
+    subtitle="Bir köşede kalan, zaman zaman dönüp baktığım sözler."
+  />
+
+  <section class="section">
+    <div class="container">
+      <div class="grid grid--2">
+        {sozler.map((s) => <QuoteCard metin={s.metin} kaynak={s.kaynak} />)}
+      </div>
+    </div>
+  </section>
+</BaseLayout>

@@ -1,0 +1,53 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import PageHeader from '../../components/PageHeader.astro';
+import { trTarih } from '../../utils/tarih';
+
+const yazilar = (await getCollection('yazdiklarim')).sort(
+  (a, b) => b.data.date.valueOf() - a.data.date.valueOf()
+);
+---
+
+<BaseLayout
+  title="Yazdıklarım"
+  description="Denemeler, öyküler, anılar — beni ben yapan renkler."
+>
+  <PageHeader
+    eyebrow="Yazılar"
+    title="Yazdıklarım"
+    subtitle="Denemeler, öyküler, kurgular, anılar… Beni ben yapan renkler."
+  />
+
+  <section class="section">
+    <div class="container">
+      <div class="grid grid--2">
+        {
+          yazilar.map((yazi) => (
+            <a class="card" href={`/yazdiklarim/${yazi.id}`}>
+              <div class="card__body">
+                <p class="card__meta">
+                  {yazi.data.tur ? `${yazi.data.tur} · ` : ''}
+                  {trTarih(yazi.data.date)}
+                </p>
+                <h3 class="card__title">{yazi.data.title}</h3>
+                {yazi.data.description && (
+                  <p class="card__excerpt">{yazi.data.description}</p>
+                )}
+                <span class="link-arrow oku">Oku →</span>
+              </div>
+            </a>
+          ))
+        }
+      </div>
+    </div>
+  </section>
+</BaseLayout>
+
+<style>
+  .oku {
+    display: inline-block;
+    margin-top: 14px;
+    font-size: 0.92rem;
+  }
+</style>

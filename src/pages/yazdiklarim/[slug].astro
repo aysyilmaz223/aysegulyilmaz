@@ -1,0 +1,53 @@
+---
+import { getCollection, render } from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { trTarih } from '../../utils/tarih';
+
+export async function getStaticPaths() {
+  const yazilar = await getCollection('yazdiklarim');
+  return yazilar.map((yazi) => ({
+    params: { slug: yazi.id },
+    props: { yazi },
+  }));
+}
+
+const { yazi } = Astro.props;
+const { Content } = await render(yazi);
+---
+
+<BaseLayout title={yazi.data.title} description={yazi.data.description}>
+  <article class="section">
+    <div class="container">
+      <p class="back"><a class="link-arrow" href="/yazdiklarim">← Yazdıklarım</a></p>
+      <header class="yazi-head">
+        <p class="card__meta">
+          {yazi.data.tur ? `${yazi.data.tur} · ` : ''}{trTarih(yazi.data.date)}
+        </p>
+        <h1>{yazi.data.title}</h1>
+      </header>
+      <div class="prose yazi-icerik">
+        <Content />
+      </div>
+    </div>
+  </article>
+</BaseLayout>
+
+<style>
+  .back {
+    margin-bottom: 24px;
+  }
+  .yazi-head {
+    max-width: var(--maxw-text);
+    margin-bottom: 36px;
+    padding-bottom: 24px;
+    border-bottom: 1px solid var(--line);
+  }
+  .yazi-icerik :global(blockquote) {
+    border-left: 3px solid var(--accent);
+    padding-left: 18px;
+    margin: 1.4em 0;
+    color: var(--muted);
+    font-family: var(--font-serif);
+    font-size: 1.2rem;
+  }
+</style>

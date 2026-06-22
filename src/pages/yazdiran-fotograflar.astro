@@ -1,0 +1,23 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import PageHeader from '../components/PageHeader.astro';
+import Gallery from '../components/Gallery.astro';
+import fotograflar from '../data/fotograflar.json';
+---
+
+<BaseLayout
+  title="Yazdıran Fotoğraflar"
+  description="Bana bir şeyler anlattıran, yazmaya iten kareler."
+>
+  <PageHeader
+    eyebrow="Galeri"
+    title="Yazdıran Fotoğraflar"
+    subtitle="Kimi zaman bir kare, koca bir yazıyı başlatır. İşte beni yazmaya iten fotoğraflar."
+  />
+
+  <section class="section">
+    <div class="container">
+      <Gallery items={fotograflar} columns={3} />
+    </div>
+  </section>
+</BaseLayout>

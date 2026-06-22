@@ -1,0 +1,86 @@
+---
+const year = new Date().getFullYear();
+const email = 'aysyilmaz@gmail.com';
+const instagram = 'https://www.instagram.com/aysegulyy/';
+const blog = 'https://aysegulyilmaz.blogspot.com/';
+---
+
+<footer class="footer">
+  <div class="container footer__inner">
+    <div class="footer__brand">
+      <p class="footer__name">Ayşegül Yılmaz</p>
+      <p class="footer__tag muted">
+        Koç, hikâye anlatıcısı, gezgin ve Ida’nın annesi. 🐾
+      </p>
+    </div>
+
+    <nav class="footer__links" aria-label="İletişim">
+      <a href={`mailto:${email}`}>{email}</a>
+      <a href={instagram} target="_blank" rel="noopener">Instagram</a>
+      <a href={blog} target="_blank" rel="noopener">Blog</a>
+    </nav>
+  </div>
+  <div class="container footer__base">
+    <span class="muted">© {year} Ayşegül Yılmaz</span>
+    <a class="footer__top" href="#icerik">Yukarı ↑</a>
+  </div>
+</footer>
+
+<style>
+  .footer {
+    border-top: 1px solid var(--line);
+    background: var(--bg-soft);
+    margin-top: 40px;
+  }
+  .footer__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 32px;
+    flex-wrap: wrap;
+    padding-top: 56px;
+    padding-bottom: 28px;
+  }
+  .footer__name {
+    font-family: var(--font-serif);
+    font-size: 1.4rem;
+    margin: 0 0 6px;
+  }
+  .footer__tag {
+    margin: 0;
+    max-width: 360px;
+    font-size: 0.98rem;
+  }
+  .footer__links {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: flex-end;
+    text-align: right;
+    font-size: 1rem;
+  }
+  .footer__links a {
+    color: var(--ink);
+  }
+  .footer__links a:hover {
+    color: var(--accent);
+  }
+  .footer__base {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 28px;
+    border-top: 1px solid var(--line);
+    font-size: 0.9rem;
+  }
+  .footer__top {
+    color: var(--muted);
+  }
+  @media (max-width: 560px) {
+    .footer__links {
+      align-items: flex-start;
+      text-align: left;
+    }
+  }
+</style>

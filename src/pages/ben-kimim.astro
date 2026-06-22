@@ -1,0 +1,109 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import PageHeader from '../components/PageHeader.astro';
+---
+
+<BaseLayout
+  title="Ben Kimim"
+  description="Ayşegül Yılmaz kimdir — koçluk, insan kaynakları ve yazıya uzanan hikâye."
+>
+  <PageHeader eyebrow="Hakkımda" title="Ben Kimim" subtitle="Merhaba, ben Ayşegül." />
+
+  <article class="section">
+    <div class="container portre">
+      <div class="prose">
+        <p>
+          1967 yılında Ankara’da doğdum. Çankaya İlk Okulu, Ankara Özel Tevfik
+          Fikret Lisesi ve de Hacettepe Üniversitesi Ekonomi bölümlerinde okuyup
+          mezun oldum.
+        </p>
+        <p>
+          Üniversite eğitimi süresince (1987–90) Rickmansworth, İngiltere’de
+          English Language &amp; Cultural Organization adlı yaz okulunda hem
+          İngilizcemi geliştirdim hem de çalıştım. Bütün hayatımı etkileyecek
+          bir deneyimdi.
+        </p>
+        <p>
+          Mezun olduktan sonra 1990 yılında Ankara’da Texaco Petroleum
+          Maatschappij şirketinde çalıştım. Daha sonra İstanbul’a taşınarak
+          1994–2004 yılları arasında PricewaterhouseCoopers’da İnsan Kaynakları
+          bölümünde görev aldım. PwC’de 1995 yılında İnsan Kaynakları Bölümünün
+          kurulması çalışmalarında aktif rol aldım, 1998 yılında İnsan
+          Kaynakları Müdürlüğüne getirildim, aynı sene Price Waterhouse ile
+          Coopers &amp; Lybrand firmalarının birleşmesi sürecinde etkin olarak
+          görev aldım ve her iki şirketin şirket kültürlerinin ve İnsan
+          Kaynakları politikalarının harmonizasyonu çalışmalarını
+          gerçekleştirdim.
+        </p>
+        <p>
+          Ekim 2004 – Haziran 2005 tarihleri arasında Türkiye’nin uluslararası
+          geçerliliği olan ilk Koçluk Okulu olan Coaches Training Institute
+          (CTI) tarafından verilen 116 saatlik ileri düzey “Co-active Coaching”
+          eğitimlerini tamamlayarak Uluslararası Koçluk Sertifikasını aldım.
+          Böylece daha önce İnsan Kaynakları Müdürü olarak kullanmakta olduğum
+          teknikleri daha bilinçli ve etkili olarak hem kişisel hem de
+          profesyonel yaşantımda kullanmaya başladım. On senelik İnsan
+          Kaynakları tecrübesinin üzerine almış olduğum koçluk eğitimleri de
+          eklenince artık bu alanda yoğunlaşmak istediğime karar vererek,
+          profesyonel koç olarak iş hayatına devam ettim.
+        </p>
+        <p>
+          Uluslararası Koçluk Federasyonu’nun (ICF) Türkiye şubesini kurma,
+          dernekleşme süreçlerinde aktif rol aldım ve uzun yıllar boyunca
+          Yönetim Kurulunda görev aldım.
+        </p>
+        <p>
+          Yazı, ilk önceleri günlük yazarak, sonra dertlerimi
+          söyleyemediklerimi yazarak çok erken yaşlarda başladı. Yeşim Cimcoz
+          ile yollarımın kesişmesi ise geçirdiğim ciddi bir ameliyat sürecinde
+          “Yazarak Hafifleyin” kitabı ile gerçekleşti. Yıl 2005… Derken Yazı
+          Evi girdi hayatıma ve giriş o giriş baş köşeye oturdu. Bahariye, Moda,
+          Sanal Yazı Evi derken tam gaz gidiyor.
+        </p>
+
+        <p class="devam">
+          <a class="link-arrow" href="/nasil-yazmaya-basladim">Nasıl yazmaya başladığımı oku →</a>
+        </p>
+      </div>
+
+      <aside class="portre__media">
+        <img src="/images/profil.jpg" alt="Ayşegül Yılmaz" />
+      </aside>
+    </div>
+  </article>
+</BaseLayout>
+
+<style>
+  .portre {
+    display: grid;
+    grid-template-columns: 1fr 320px;
+    gap: clamp(32px, 5vw, 64px);
+    align-items: start;
+  }
+  .portre__media {
+    position: sticky;
+    top: calc(var(--nav-h) + 24px);
+  }
+  .portre__media img {
+    width: 100%;
+    aspect-ratio: 4 / 5;
+    object-fit: cover;
+    border-radius: 16px;
+    box-shadow: var(--shadow);
+  }
+  .devam {
+    margin-top: 2em;
+    padding-top: 1.4em;
+    border-top: 1px solid var(--line);
+  }
+  @media (max-width: 820px) {
+    .portre {
+      grid-template-columns: 1fr;
+    }
+    .portre__media {
+      position: static;
+      order: -1;
+      max-width: 300px;
+    }
+  }
+</style>

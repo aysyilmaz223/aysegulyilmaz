@@ -1,0 +1,21 @@
+# build çıktısı
+dist/
+.astro/
+
+# bağımlılıklar
+node_modules/
+
+# çalışma / kaynak içerik (siteye dahil değil)
+_kaynak/
+
+# Claude Code yerel ayarları
+.claude/
+
+# işletim sistemi / editör
+.DS_Store
+*~
+~$*
+.vscode/
+npm-debug.log*
+.env
+.env.*

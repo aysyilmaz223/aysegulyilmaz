@@ -1,0 +1,65 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import PageHeader from '../../components/PageHeader.astro';
+import { trTarih } from '../../utils/tarih';
+
+const geziler = (await getCollection('seyahatler')).sort(
+  (a, b) => b.data.date.valueOf() - a.data.date.valueOf()
+);
+---
+
+<BaseLayout
+  title="Seyahatler"
+  description="Gezdiğim, gördüğüm yerler ve onların hissettirdikleri."
+>
+  <PageHeader
+    eyebrow="Galeri"
+    title="Seyahatler"
+    subtitle="Gezdiğim, gördüğüm yerleri ve onların bana hissettirdiklerini fotoğraflarla anlatıyorum."
+  />
+
+  <section class="section">
+    <div class="container">
+      <div class="grid grid--3">
+        {
+          geziler.map((gezi) => (
+            <a class="card gezi" href={`/seyahatler/${gezi.id}`}>
+              {gezi.data.kapak && (
+                <div class="gezi__cover">
+                  <img src={gezi.data.kapak} alt={gezi.data.title} loading="lazy" />
+                </div>
+              )}
+              <div class="card__body">
+                <p class="card__meta">
+                  {gezi.data.yer ? `${gezi.data.yer} · ` : ''}
+                  {trTarih(gezi.data.date)}
+                </p>
+                <h3 class="card__title">{gezi.data.title}</h3>
+                {gezi.data.description && (
+                  <p class="card__excerpt">{gezi.data.description}</p>
+                )}
+              </div>
+            </a>
+          ))
+        }
+      </div>
+    </div>
+  </section>
+</BaseLayout>
+
+<style>
+  .gezi__cover {
+    aspect-ratio: 3 / 2;
+    overflow: hidden;
+  }
+  .gezi__cover img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.4s ease;
+  }
+  .gezi:hover .gezi__cover img {
+    transform: scale(1.05);
+  }
+</style>

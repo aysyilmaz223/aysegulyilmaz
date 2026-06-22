@@ -1,0 +1,51 @@
+---
+import { getCollection, render } from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { trTarih } from '../../utils/tarih';
+
+export async function getStaticPaths() {
+  const girdiler = await getCollection('ida');
+  return girdiler.map((girdi) => ({
+    params: { slug: girdi.id },
+    props: { girdi },
+  }));
+}
+
+const { girdi } = Astro.props;
+const { Content } = await render(girdi);
+---
+
+<BaseLayout title={`${girdi.data.title} — Ida’nın Güncesi`}>
+  <article class="section">
+    <div class="container">
+      <p class="back"><a class="link-arrow" href="/idanin-guncesi">← Ida’nın Güncesi</a></p>
+      <header class="gunce-head">
+        <time class="card__meta">{trTarih(girdi.data.date)}</time>
+        <h1>{girdi.data.title}</h1>
+      </header>
+      {
+        girdi.data.foto && (
+          <img class="gunce-foto" src={girdi.data.foto} alt={girdi.data.title} />
+        )
+      }
+      <div class="prose">
+        <Content />
+      </div>
+    </div>
+  </article>
+</BaseLayout>
+
+<style>
+  .back {
+    margin-bottom: 24px;
+  }
+  .gunce-head {
+    margin-bottom: 28px;
+  }
+  .gunce-foto {
+    width: 100%;
+    max-width: var(--maxw-text);
+    border-radius: var(--radius);
+    margin-bottom: 32px;
+  }
+</style>

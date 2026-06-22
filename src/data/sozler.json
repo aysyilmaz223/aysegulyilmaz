@@ -1,0 +1,14 @@
+[
+  {
+    "metin": "Yazmak iyileştirir.",
+    "kaynak": "Ayşegül Yılmaz"
+  },
+  {
+    "metin": "Yazmak büyük bir güçtür: hikâyene istediğin gibi şekil verebileceğinin en güzel kanıtıdır.",
+    "kaynak": "Ayşegül Yılmaz"
+  },
+  {
+    "metin": "Buraya seni düşündüren bir söz ekle. Bu dosyayı (src/data/sozler.json) düzenleyerek istediğin kadar söz ekleyebilirsin.",
+    "kaynak": "Örnek"
+  }
+]

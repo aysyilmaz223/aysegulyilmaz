@@ -1,0 +1,29 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import PageHeader from '../components/PageHeader.astro';
+import BookCard from '../components/BookCard.astro';
+import kitaplar from '../data/okuduklarim.json';
+---
+
+<BaseLayout
+  title="Okuduklarım"
+  description="Okuduğum, bana iz bırakan kitaplar ve kısa notlar."
+>
+  <PageHeader
+    eyebrow="Yazılar"
+    title="Okuduklarım"
+    subtitle="Okuduğum, bana bir şey katan kitaplar ve onlara dair notlarım."
+  />
+
+  <section class="section">
+    <div class="container">
+      <div class="grid grid--2">
+        {
+          kitaplar.map((k) => (
+            <BookCard ad={k.ad} yazar={k.yazar} not={k.not} kapak={k.kapak} />
+          ))
+        }
+      </div>
+    </div>
+  </section>
+</BaseLayout>

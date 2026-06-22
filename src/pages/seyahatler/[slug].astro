@@ -1,0 +1,75 @@
+---
+import { getCollection, render } from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import Gallery from '../../components/Gallery.astro';
+import { trTarih } from '../../utils/tarih';
+
+export async function getStaticPaths() {
+  const geziler = await getCollection('seyahatler');
+  return geziler.map((gezi) => ({
+    params: { slug: gezi.id },
+    props: { gezi },
+  }));
+}
+
+const { gezi } = Astro.props;
+const { Content } = await render(gezi);
+const galeriItems = (gezi.data.galeri ?? []).map((src) => ({ src, caption: '' }));
+---
+
+<BaseLayout title={gezi.data.title} description={gezi.data.description}>
+  <article>
+    {
+      gezi.data.kapak && (
+        <div class="gezi-hero">
+          <img src={gezi.data.kapak} alt={gezi.data.title} />
+        </div>
+      )
+    }
+    <div class="section">
+      <div class="container">
+        <p class="back"><a class="link-arrow" href="/seyahatler">← Seyahatler</a></p>
+        <header class="gezi-head">
+          <p class="card__meta">
+            {gezi.data.yer ? `${gezi.data.yer} · ` : ''}{trTarih(gezi.data.date)}
+          </p>
+          <h1>{gezi.data.title}</h1>
+        </header>
+        <div class="prose">
+          <Content />
+        </div>
+        {
+          galeriItems.length > 0 && (
+            <div class="gezi-galeri">
+              <Gallery items={galeriItems} columns={3} />
+            </div>
+          )
+        }
+      </div>
+    </div>
+  </article>
+</BaseLayout>
+
+<style>
+  .gezi-hero {
+    width: 100%;
+    max-height: 60vh;
+    overflow: hidden;
+  }
+  .gezi-hero img {
+    width: 100%;
+    height: 100%;
+    max-height: 60vh;
+    object-fit: cover;
+  }
+  .back {
+    margin-bottom: 24px;
+  }
+  .gezi-head {
+    max-width: var(--maxw-text);
+    margin-bottom: 32px;
+  }
+  .gezi-galeri {
+    margin-top: 48px;
+  }
+</style>

@@ -1,0 +1,83 @@
+---
+interface Props {
+  ad: string;
+  yazar: string;
+  not?: string;
+  kapak?: string;
+}
+const { ad, yazar, not, kapak } = Astro.props;
+---
+
+<article class="book">
+  <div class="book__cover">
+    {
+      kapak ? (
+        <img src={kapak} alt={`${ad} kapağı`} loading="lazy" />
+      ) : (
+        <span class="book__placeholder">{ad}</span>
+      )
+    }
+  </div>
+  <div class="book__info">
+    <h3 class="book__title">{ad}</h3>
+    <p class="book__author muted">{yazar}</p>
+    {not && <p class="book__note">{not}</p>}
+  </div>
+</article>
+
+<style>
+  .book {
+    display: flex;
+    gap: 18px;
+    padding: 18px;
+    border: 1px solid var(--line);
+    border-radius: var(--radius);
+    background: #fff;
+    transition: transform 0.25s ease, box-shadow 0.25s ease,
+      border-color 0.25s ease;
+  }
+  .book:hover {
+    transform: translateY(-3px);
+    box-shadow: var(--shadow);
+    border-color: var(--line-strong);
+  }
+  .book__cover {
+    flex: 0 0 92px;
+    width: 92px;
+    height: 132px;
+    border-radius: 8px;
+    overflow: hidden;
+    background: var(--accent-soft);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  .book__cover img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .book__placeholder {
+    font-family: var(--font-serif);
+    font-size: 0.85rem;
+    color: var(--accent);
+    padding: 8px;
+  }
+  .book__info {
+    min-width: 0;
+  }
+  .book__title {
+    font-size: 1.12rem;
+    margin: 2px 0 2px;
+  }
+  .book__author {
+    margin: 0 0 8px;
+    font-size: 0.92rem;
+  }
+  .book__note {
+    margin: 0;
+    font-size: 0.95rem;
+    color: #3a382f;
+  }
+</style>

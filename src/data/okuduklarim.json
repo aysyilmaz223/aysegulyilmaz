@@ -1,0 +1,14 @@
+[
+  {
+    "ad": "Yazarak Hafifleyin",
+    "yazar": "Yeşim Cimcoz",
+    "not": "Yazma yolculuğumun başladığı kitap. Duyguları altı dakikalık yazılarla dökmenin iyileştirici gücü.",
+    "kapak": ""
+  },
+  {
+    "ad": "Kitap adı",
+    "yazar": "Yazar adı",
+    "not": "Bu kitap hakkında kısa bir not. Yeni kitap eklemek için src/data/okuduklarim.json dosyasını düzenle. İstersen kapak görseli yolu da ekleyebilirsin (örn. /images/kapak.jpg).",
+    "kapak": ""
+  }
+]
