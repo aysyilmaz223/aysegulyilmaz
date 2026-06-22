@@ -24,7 +24,7 @@ const girdiler = (await getCollection('ida')).sort(
     {
       girdiler.map((g) => (
         <li>
-          <a class="gunce__item" href={withBase(`/idanin-guncesi/${g.id}`)}>
+          <a class={g.data.foto ? 'gunce__item has-foto' : 'gunce__item'} href={withBase(`/idanin-guncesi/${g.id}`)}>
             {g.data.foto && (
               <div class="gunce__foto">
                 <img src={withBase(g.data.foto)} alt={g.data.title} loading="lazy" />
@@ -51,12 +51,15 @@ const girdiler = (await getCollection('ida')).sort(
   }
   .gunce__item {
     display: grid;
-    grid-template-columns: 140px 1fr;
+    grid-template-columns: 1fr;
     gap: var(--spacing-16);
     align-items: center;
     padding: var(--spacing-16) 0;
     border-bottom: 1px solid var(--color-pencil-gray);
     color: var(--color-ink-black);
+  }
+  .gunce__item.has-foto {
+    grid-template-columns: 140px 1fr;
   }
   .gunce__foto {
     aspect-ratio: 3 / 2;
