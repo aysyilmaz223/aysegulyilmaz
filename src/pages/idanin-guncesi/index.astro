@@ -1,47 +1,52 @@
 ---
-import { getCollection } from 'astro:content';
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import PageHeader from '../../components/PageHeader.astro';
-import { trTarih } from '../../utils/tarih';
-import { withBase } from '../../utils/url';
+import girdiler from '../../data/ida-yazilari.json';
 
-const girdiler = (await getCollection('ida')).sort(
-  (a, b) => b.data.date.valueOf() - a.data.date.valueOf()
-);
+const blogLabel = 'https://aysegulyilmaz.blogspot.com/search/label/IDA';
 ---
 
 <BaseLayout
   title="Ida'nın Güncesi"
-  description="Labrador’um Ida ile günlerimizden küçük notlar."
+  description="Labrador’um Ida ile günlerimizden notlar — blogumdaki Ida’nın Güncesi yazıları."
 >
   <PageHeader
     eyebrow="Galeri"
     title="Ida’nın Güncesi"
-    subtitle="Labrador’um Ida ile günlerimizden küçük, sıcak notlar. 🐾"
+    subtitle="Labrador’um Ida ile günlerimizden küçük, sıcak notlar. Her girdiye tıklayınca yazının tamamı blogumda açılır. 🐾"
   />
 
   <section class="section">
-   <div class="container">
-    <ul class="gunce">
-    {
-      girdiler.map((g) => (
-        <li>
-          <a class={g.data.foto ? 'gunce__item has-foto' : 'gunce__item'} href={withBase(`/idanin-guncesi/${g.id}`)}>
-            {g.data.foto && (
-              <div class="gunce__foto">
-                <img src={withBase(g.data.foto)} alt={g.data.title} loading="lazy" />
-              </div>
-            )}
-            <div class="gunce__body">
-              <time class="meta">{trTarih(g.data.date)}</time>
-              <span class="gunce__title">{g.data.title}</span>
-            </div>
-          </a>
-        </li>
-      ))
-    }
-    </ul>
-   </div>
+    <div class="container">
+      <ul class="gunce">
+        {
+          girdiler.map((g) => (
+            <li>
+              <a class="gunce__item" href={g.url} target="_blank" rel="noopener">
+                <div class="gunce__foto">
+                  <img
+                    src={g.kapak}
+                    alt={`Ida — ${g.tarih}`}
+                    loading="lazy"
+                    referrerpolicy="no-referrer"
+                  />
+                </div>
+                <div class="gunce__body">
+                  <time class="meta">{g.tarih}</time>
+                  <span class="gunce__title">Ida’nın Güncesi <span class="gunce__arrow">↗</span></span>
+                </div>
+              </a>
+            </li>
+          ))
+        }
+      </ul>
+
+      <p class="tumu">
+        <a class="link-arrow" href={blogLabel} target="_blank" rel="noopener">
+          Tüm Ida’nın Güncesi yazıları blogumda →
+        </a>
+      </p>
+    </div>
   </section>
 </BaseLayout>
 
@@ -50,39 +55,53 @@ const girdiler = (await getCollection('ida')).sort(
     list-style: none;
     margin: 0 auto;
     padding: 0;
-    max-width: 720px;
-    border-top: 1px solid var(--color-pencil-gray);
+    max-width: 760px;
+    border-top: 1px solid var(--color-bone);
   }
   .gunce__item {
     display: grid;
-    grid-template-columns: 1fr;
-    gap: var(--spacing-16);
+    grid-template-columns: 150px 1fr;
+    gap: var(--spacing-20);
     align-items: center;
     padding: var(--spacing-16) 0;
-    border-bottom: 1px solid var(--color-pencil-gray);
-    color: var(--color-ink-black);
-  }
-  .gunce__item.has-foto {
-    grid-template-columns: 140px 1fr;
+    border-bottom: 1px solid var(--color-bone);
+    color: var(--color-ink);
   }
   .gunce__foto {
     aspect-ratio: 3 / 2;
     overflow: hidden;
+    border: 1px solid var(--color-loam);
+    border-radius: var(--radius-card);
+    background: var(--color-bone);
   }
   .gunce__foto img {
     width: 100%;
     height: 100%;
     object-fit: cover;
-    transition: opacity 0.2s ease;
+    transition: transform 0.3s ease;
   }
   .gunce__item:hover .gunce__foto img {
-    opacity: 0.85;
+    transform: scale(1.04);
   }
   .gunce__title {
     display: block;
-    margin-top: var(--spacing-4);
-    font-size: 14px;
+    margin-top: 2px;
+    font-family: var(--font-display);
+    font-size: 20px;
     font-weight: 500;
+    letter-spacing: -0.011em;
+  }
+  .gunce__arrow {
+    color: var(--color-saddle);
+    font-size: 16px;
+  }
+  .tumu {
+    margin-top: var(--spacing-32);
+    padding-top: var(--spacing-20);
+    border-top: 1px solid var(--color-bone);
+    max-width: 760px;
+    margin-left: auto;
+    margin-right: auto;
   }
   @media (max-width: 540px) {
     .gunce__item {

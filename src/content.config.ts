@@ -12,14 +12,4 @@ const yazdiklarim = defineCollection({
   }),
 });
 
-// Ida'nın Güncesi — tarihli kısa girdiler
-const ida = defineCollection({
-  loader: glob({ pattern: '**/*.md', base: './src/content/ida' }),
-  schema: z.object({
-    title: z.string(),
-    date: z.coerce.date(),
-    foto: z.string().optional(),
-  }),
-});
-
-export const collections = { yazdiklarim, ida };
+export const collections = { yazdiklarim };
