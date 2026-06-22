@@ -2,6 +2,7 @@
 import { getCollection, render } from 'astro:content';
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import { trTarih } from '../../utils/tarih';
+import { withBase } from '../../utils/url';
 
 export async function getStaticPaths() {
   const yazilar = await getCollection('yazdiklarim');
@@ -18,7 +19,7 @@ const { Content } = await render(yazi);
 <BaseLayout title={yazi.data.title} description={yazi.data.description}>
   <article class="section">
     <div class="container">
-      <p class="back"><a class="link-arrow" href="/yazdiklarim">← Yazdıklarım</a></p>
+      <p class="back"><a class="link-arrow" href={withBase('/yazdiklarim')}>← Yazdıklarım</a></p>
       <header class="yazi-head">
         <p class="card__meta">
           {yazi.data.tur ? `${yazi.data.tur} · ` : ''}{trTarih(yazi.data.date)}

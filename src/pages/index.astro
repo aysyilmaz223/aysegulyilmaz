@@ -1,5 +1,6 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
+import { withBase } from '../utils/url';
 
 const bolumler = [
   {
@@ -65,13 +66,13 @@ const bolumler = [
           yollarda biriktirdiklerimi bir araya getirdim.
         </p>
         <div class="hero__actions">
-          <a class="btn btn--primary" href="/ben-kimim">Ben Kimim</a>
-          <a class="btn" href="/yazdiklarim">Yazdıklarım</a>
+          <a class="btn btn--primary" href={withBase('/ben-kimim')}>Ben Kimim</a>
+          <a class="btn" href={withBase('/yazdiklarim')}>Yazdıklarım</a>
           <a class="btn" href="https://aysegulyilmaz.blogspot.com/" target="_blank" rel="noopener">Blog ↗</a>
         </div>
       </div>
       <div class="hero__media">
-        <img src="/images/profil.jpg" alt="Ayşegül Yılmaz" />
+        <img src={withBase('/images/profil.jpg')} alt="Ayşegül Yılmaz" />
       </div>
     </div>
   </section>
@@ -83,7 +84,7 @@ const bolumler = [
       <div class="grid grid--3 bolumler">
         {
           bolumler.map((b) => (
-            <a class="card bolum" href={b.href}>
+            <a class="card bolum" href={withBase(b.href)}>
               <div class="card__body">
                 <h3 class="card__title">{b.baslik}</h3>
                 <p class="card__excerpt">{b.metin}</p>

@@ -18,6 +18,20 @@ npm run build    # statik çıktı -> dist/
 npm run preview  # build çıktısını önizle
 ```
 
+## GitHub Pages ile test (otomatik)
+Depoda bir GitHub Actions iş akışı var (`.github/workflows/deploy.yml`); her
+`main` push’unda siteyi derleyip GitHub Pages’e yayınlar.
+
+Tek seferlik kurulum: GitHub’da depo → **Settings → Pages → Build and
+deployment → Source: GitHub Actions** seç. İlk yayından sonra site şu adreste
+olur:
+
+> https://aysyilmaz223.github.io/aysegulyilmaz/
+
+> Not: GitHub Pages proje sayfası olduğu için site `/aysegulyilmaz/` alt
+> yolunda yayınlanır. Bu yüzden `astro.config.mjs` içinde `base: '/aysegulyilmaz'`
+> ayarlıdır ve tüm bağlantılar bu yola göre üretilir.
+
 ## Cloudflare Pages’e bağlama (sen yapacaksın)
 1. [Cloudflare dashboard](https://dash.cloudflare.com) → **Workers & Pages** →
    **Create application** → **Pages** → **Connect to Git**.

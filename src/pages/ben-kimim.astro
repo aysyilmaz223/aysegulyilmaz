@@ -1,6 +1,7 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
 import PageHeader from '../components/PageHeader.astro';
+import { withBase } from '../utils/url';
 ---
 
 <BaseLayout
@@ -62,12 +63,12 @@ import PageHeader from '../components/PageHeader.astro';
         </p>
 
         <p class="devam">
-          <a class="link-arrow" href="/nasil-yazmaya-basladim">Nasıl yazmaya başladığımı oku →</a>
+          <a class="link-arrow" href={withBase('/nasil-yazmaya-basladim')}>Nasıl yazmaya başladığımı oku →</a>
         </p>
       </div>
 
       <aside class="portre__media">
-        <img src="/images/profil.jpg" alt="Ayşegül Yılmaz" />
+        <img src={withBase('/images/profil.jpg')} alt="Ayşegül Yılmaz" />
       </aside>
     </div>
   </article>

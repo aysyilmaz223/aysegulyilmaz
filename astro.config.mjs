@@ -1,7 +1,14 @@
 import { defineConfig } from 'astro/config';
 
-// Cloudflare Pages alan adın belli olunca burayı kendi adresinle güncelleyebilirsin
-// (örn. https://aysegulyilmaz.com). Şimdilik varsayılan Pages adresi yer tutucu.
+// GitHub Pages (proje sayfası) için:
+//   site -> https://<kullanıcı>.github.io
+//   base -> /<repo-adı>
+// Site bu adresten yayınlanır: https://aysyilmaz223.github.io/aysegulyilmaz/
+//
+// Cloudflare’e (kendi alan adına) geçince base’i '/' yapıp site’ı kendi
+// adresinle güncelleyebilirsin; iç bağlantılar BASE_URL kullandığı için
+// her iki durumda da çalışır.
 export default defineConfig({
-  site: 'https://aysegulyilmaz.pages.dev',
+  site: 'https://aysyilmaz223.github.io',
+  base: '/aysegulyilmaz',
 });

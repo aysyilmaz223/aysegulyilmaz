@@ -3,6 +3,7 @@ import { getCollection } from 'astro:content';
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import PageHeader from '../../components/PageHeader.astro';
 import { trTarih } from '../../utils/tarih';
+import { withBase } from '../../utils/url';
 
 const yazilar = (await getCollection('yazdiklarim')).sort(
   (a, b) => b.data.date.valueOf() - a.data.date.valueOf()
@@ -24,7 +25,7 @@ const yazilar = (await getCollection('yazdiklarim')).sort(
       <div class="grid grid--2">
         {
           yazilar.map((yazi) => (
-            <a class="card" href={`/yazdiklarim/${yazi.id}`}>
+            <a class="card" href={withBase(`/yazdiklarim/${yazi.id}`)}>
               <div class="card__body">
                 <p class="card__meta">
                   {yazi.data.tur ? `${yazi.data.tur} · ` : ''}

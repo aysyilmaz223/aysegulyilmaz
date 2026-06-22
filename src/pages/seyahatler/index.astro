@@ -3,6 +3,7 @@ import { getCollection } from 'astro:content';
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import PageHeader from '../../components/PageHeader.astro';
 import { trTarih } from '../../utils/tarih';
+import { withBase } from '../../utils/url';
 
 const geziler = (await getCollection('seyahatler')).sort(
   (a, b) => b.data.date.valueOf() - a.data.date.valueOf()
@@ -24,10 +25,10 @@ const geziler = (await getCollection('seyahatler')).sort(
       <div class="grid grid--3">
         {
           geziler.map((gezi) => (
-            <a class="card gezi" href={`/seyahatler/${gezi.id}`}>
+            <a class="card gezi" href={withBase(`/seyahatler/${gezi.id}`)}>
               {gezi.data.kapak && (
                 <div class="gezi__cover">
-                  <img src={gezi.data.kapak} alt={gezi.data.title} loading="lazy" />
+                  <img src={withBase(gezi.data.kapak)} alt={gezi.data.title} loading="lazy" />
                 </div>
               )}
               <div class="card__body">

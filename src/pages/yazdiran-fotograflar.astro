@@ -3,6 +3,9 @@ import BaseLayout from '../layouts/BaseLayout.astro';
 import PageHeader from '../components/PageHeader.astro';
 import Gallery from '../components/Gallery.astro';
 import fotograflar from '../data/fotograflar.json';
+import { withBase } from '../utils/url';
+
+const items = fotograflar.map((f) => ({ ...f, src: withBase(f.src) }));
 ---
 
 <BaseLayout
@@ -17,7 +20,7 @@ import fotograflar from '../data/fotograflar.json';
 
   <section class="section">
     <div class="container">
-      <Gallery items={fotograflar} columns={3} />
+      <Gallery items={items} columns={3} />
     </div>
   </section>
 </BaseLayout>

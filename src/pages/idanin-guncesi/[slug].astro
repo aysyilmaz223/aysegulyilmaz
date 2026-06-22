@@ -2,6 +2,7 @@
 import { getCollection, render } from 'astro:content';
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import { trTarih } from '../../utils/tarih';
+import { withBase } from '../../utils/url';
 
 export async function getStaticPaths() {
   const girdiler = await getCollection('ida');
@@ -18,14 +19,14 @@ const { Content } = await render(girdi);
 <BaseLayout title={`${girdi.data.title} — Ida’nın Güncesi`}>
   <article class="section">
     <div class="container">
-      <p class="back"><a class="link-arrow" href="/idanin-guncesi">← Ida’nın Güncesi</a></p>
+      <p class="back"><a class="link-arrow" href={withBase('/idanin-guncesi')}>← Ida’nın Güncesi</a></p>
       <header class="gunce-head">
         <time class="card__meta">{trTarih(girdi.data.date)}</time>
         <h1>{girdi.data.title}</h1>
       </header>
       {
         girdi.data.foto && (
-          <img class="gunce-foto" src={girdi.data.foto} alt={girdi.data.title} />
+          <img class="gunce-foto" src={withBase(girdi.data.foto)} alt={girdi.data.title} />
         )
       }
       <div class="prose">

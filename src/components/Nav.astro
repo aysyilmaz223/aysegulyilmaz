@@ -1,5 +1,6 @@
 ---
 // Üst gezinme — gruplanmış menü (masaüstü açılır menü, mobil hamburger)
+import { withBase } from '../utils/url';
 const groups = [
   {
     label: 'Hakkımda',
@@ -31,7 +32,7 @@ const blogUrl = 'https://aysegulyilmaz.blogspot.com/';
 
 <header class="nav" id="site-nav">
   <div class="container nav__inner">
-    <a href="/" class="nav__brand">Ayşegül&nbsp;Yılmaz</a>
+    <a href={withBase('/')} class="nav__brand">Ayşegül&nbsp;Yılmaz</a>
 
     <button
       class="nav__toggle"
@@ -62,7 +63,7 @@ const blogUrl = 'https://aysegulyilmaz.blogspot.com/';
               <ul class="nav__dropdown">
                 {group.items.map((item) => (
                   <li>
-                    <a href={item.href}>{item.label}</a>
+                    <a href={withBase(item.href)}>{item.label}</a>
                   </li>
                 ))}
               </ul>

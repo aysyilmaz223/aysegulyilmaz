@@ -3,6 +3,7 @@ import { getCollection, render } from 'astro:content';
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import Gallery from '../../components/Gallery.astro';
 import { trTarih } from '../../utils/tarih';
+import { withBase } from '../../utils/url';
 
 export async function getStaticPaths() {
   const geziler = await getCollection('seyahatler');
@@ -14,7 +15,7 @@ export async function getStaticPaths() {
 
 const { gezi } = Astro.props;
 const { Content } = await render(gezi);
-const galeriItems = (gezi.data.galeri ?? []).map((src) => ({ src, caption: '' }));
+const galeriItems = (gezi.data.galeri ?? []).map((src) => ({ src: withBase(src), caption: '' }));
 ---
 
 <BaseLayout title={gezi.data.title} description={gezi.data.description}>
@@ -22,13 +23,13 @@ const galeriItems = (gezi.data.galeri ?? []).map((src) => ({ src, caption: '' })
     {
       gezi.data.kapak && (
         <div class="gezi-hero">
-          <img src={gezi.data.kapak} alt={gezi.data.title} />
+          <img src={withBase(gezi.data.kapak)} alt={gezi.data.title} />
         </div>
       )
     }
     <div class="section">
       <div class="container">
-        <p class="back"><a class="link-arrow" href="/seyahatler">← Seyahatler</a></p>
+        <p class="back"><a class="link-arrow" href={withBase('/seyahatler')}>← Seyahatler</a></p>
         <header class="gezi-head">
           <p class="card__meta">
             {gezi.data.yer ? `${gezi.data.yer} · ` : ''}{trTarih(gezi.data.date)}
