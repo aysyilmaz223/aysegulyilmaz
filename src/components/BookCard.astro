@@ -14,13 +14,13 @@ const { ad, yazar, not, kapak } = Astro.props;
       kapak ? (
         <img src={kapak} alt={`${ad} kapağı`} loading="lazy" />
       ) : (
-        <span class="book__placeholder meta">{ad}</span>
+        <span class="book__placeholder">{ad}</span>
       )
     }
   </div>
   <div class="book__info">
     <h3 class="book__title">{ad}</h3>
-    <p class="book__author meta">{yazar}</p>
+    <p class="book__author">{yazar}</p>
     {not && <p class="book__note">{not}</p>}
   </div>
 </article>
@@ -28,15 +28,19 @@ const { ad, yazar, not, kapak } = Astro.props;
 <style>
   .book {
     display: flex;
-    gap: var(--spacing-16);
-    padding: var(--spacing-16);
-    border: 1px solid var(--color-pencil-gray);
+    gap: var(--spacing-20);
+    padding: var(--spacing-32);
+    background: var(--color-pure-white);
+    border: 1px solid var(--color-loam);
+    border-radius: var(--radius-card);
   }
   .book__cover {
-    flex: 0 0 84px;
-    width: 84px;
-    height: 120px;
-    border: 1px solid var(--color-pencil-gray);
+    flex: 0 0 86px;
+    width: 86px;
+    height: 122px;
+    border: 1px solid var(--color-loam);
+    border-radius: var(--radius-control);
+    background: var(--color-bone);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -50,22 +54,26 @@ const { ad, yazar, not, kapak } = Astro.props;
   }
   .book__placeholder {
     padding: var(--spacing-8);
+    font-family: var(--font-display);
+    font-size: var(--text-eyebrow);
+    color: var(--color-saddle);
   }
   .book__info {
     min-width: 0;
   }
   .book__title {
-    font-size: 14px;
-    font-weight: 500;
+    font-size: 19px;
     margin: 0 0 2px;
   }
   .book__author {
-    margin: 0 0 var(--spacing-8);
+    margin: 0 0 var(--spacing-12);
+    font-size: var(--text-eyebrow);
+    color: var(--color-bark);
   }
   .book__note {
     margin: 0;
-    font-size: 13px;
-    line-height: 1.5;
-    color: var(--color-ink-black);
+    font-size: var(--text-body);
+    line-height: 1.6;
+    color: var(--color-saddle);
   }
 </style>

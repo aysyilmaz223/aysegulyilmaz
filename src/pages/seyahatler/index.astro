@@ -20,7 +20,9 @@ const geziler = (await getCollection('seyahatler')).sort(
     subtitle="Gezdiğim, gördüğüm yerleri ve onların bana hissettirdiklerini fotoğraflarla anlatıyorum."
   />
 
-  <div class="grid">
+  <section class="section">
+   <div class="container">
+    <div class="grid">
     {
       geziler.map((gezi) => (
         <a class="gezi" href={withBase(`/seyahatler/${gezi.id}`)}>
@@ -38,7 +40,9 @@ const geziler = (await getCollection('seyahatler')).sort(
         </a>
       ))
     }
-  </div>
+    </div>
+   </div>
+  </section>
 </BaseLayout>
 
 <style>

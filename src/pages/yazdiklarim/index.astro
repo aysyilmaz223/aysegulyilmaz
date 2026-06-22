@@ -20,7 +20,9 @@ const yazilar = (await getCollection('yazdiklarim')).sort(
     subtitle="Denemeler, öyküler, kurgular, anılar… Beni ben yapan renkler."
   />
 
-  <ul class="list">
+  <section class="section">
+   <div class="container">
+    <ul class="list">
     {
       yazilar.map((yazi) => (
         <li>
@@ -37,13 +39,15 @@ const yazilar = (await getCollection('yazdiklarim')).sort(
         </li>
       ))
     }
-  </ul>
+    </ul>
+   </div>
+  </section>
 </BaseLayout>
 
 <style>
   .list {
     list-style: none;
-    margin: 0;
+    margin: 0 auto;
     padding: 0;
     max-width: var(--prose-w);
     border-top: 1px solid var(--color-pencil-gray);

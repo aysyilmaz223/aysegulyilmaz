@@ -8,22 +8,28 @@ const { metin, kaynak } = Astro.props;
 
 <figure class="quote">
   <blockquote>{metin}</blockquote>
-  {kaynak && <figcaption class="meta">— {kaynak}</figcaption>}
+  {kaynak && <figcaption>— {kaynak}</figcaption>}
 </figure>
 
 <style>
   .quote {
     margin: 0;
-    border: 1px solid var(--color-pencil-gray);
-    padding: var(--spacing-16);
+    background: var(--color-parchment);
+    border: 1px solid var(--color-loam);
+    border-radius: var(--radius-card);
+    border-top: 3px solid var(--color-wheat);
+    padding: var(--spacing-32);
   }
   blockquote {
     margin: 0;
-    font-size: var(--text-body);
-    line-height: 1.55;
-    color: var(--color-ink-black);
+    font-family: var(--font-display);
+    font-size: 22px;
+    line-height: 1.4;
+    color: var(--color-ink);
   }
   figcaption {
-    margin-top: var(--spacing-12);
+    margin-top: var(--spacing-16);
+    font-size: var(--text-eyebrow);
+    color: var(--color-bark);
   }
 </style>

@@ -44,18 +44,19 @@ const { items, columns = 3 } = Astro.props;
   .tile__btn {
     display: block;
     width: 100%;
-    padding: 0;
-    border: 0;
-    background: none;
+    padding: 6px;
+    border: 1px solid var(--color-loam);
+    background: var(--color-pure-white);
+    border-radius: var(--radius-control);
     cursor: zoom-in;
+    transition: transform 0.2s ease;
+  }
+  .tile__btn:hover {
+    transform: rotate(-0.6deg);
   }
   .tile__btn img {
     width: 100%;
     height: auto;
-    transition: opacity 0.2s ease;
-  }
-  .tile__btn:hover img {
-    opacity: 0.85;
   }
   .tile figcaption {
     margin-top: var(--spacing-8);
@@ -65,7 +66,7 @@ const { items, columns = 3 } = Astro.props;
     position: fixed;
     inset: 0;
     z-index: 1000;
-    background: rgba(255, 255, 255, 0.97);
+    background: rgba(33, 27, 21, 0.92);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -86,7 +87,7 @@ const { items, columns = 3 } = Astro.props;
     margin: 0 auto;
   }
   .lightbox__fig figcaption {
-    color: var(--color-graphite);
+    color: var(--color-bone);
     font-size: var(--text-caption);
     margin-top: var(--spacing-16);
   }
@@ -96,7 +97,7 @@ const { items, columns = 3 } = Astro.props;
     right: 22px;
     font-size: 1.8rem;
     line-height: 1;
-    color: var(--color-ink-black);
+    color: var(--color-parchment);
     background: none;
     border: 0;
     cursor: pointer;
