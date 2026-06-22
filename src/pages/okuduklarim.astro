@@ -18,7 +18,7 @@ import { withBase } from '../utils/url';
 
   <section class="section">
     <div class="container">
-      <div class="grid grid--2">
+      <div class="cols2">
         {
           kitaplar.map((k) => (
             <BookCard ad={k.ad} yazar={k.yazar} not={k.not} kapak={k.kapak ? withBase(k.kapak) : ''} />

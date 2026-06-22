@@ -21,7 +21,7 @@ const { Content } = await render(girdi);
     <div class="container">
       <p class="back"><a class="link-arrow" href={withBase('/idanin-guncesi')}>← Ida’nın Güncesi</a></p>
       <header class="gunce-head">
-        <time class="card__meta">{trTarih(girdi.data.date)}</time>
+        <time class="meta">{trTarih(girdi.data.date)}</time>
         <h1>{girdi.data.title}</h1>
       </header>
       {
@@ -41,12 +41,14 @@ const { Content } = await render(girdi);
     margin-bottom: 24px;
   }
   .gunce-head {
-    margin-bottom: 28px;
+    margin-bottom: var(--spacing-20);
+  }
+  .gunce-head h1 {
+    margin-top: var(--spacing-8);
   }
   .gunce-foto {
     width: 100%;
-    max-width: var(--maxw-text);
-    border-radius: var(--radius);
-    margin-bottom: 32px;
+    max-width: var(--prose-w);
+    margin-bottom: var(--spacing-32);
   }
 </style>

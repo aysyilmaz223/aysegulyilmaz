@@ -14,13 +14,13 @@ const { ad, yazar, not, kapak } = Astro.props;
       kapak ? (
         <img src={kapak} alt={`${ad} kapağı`} loading="lazy" />
       ) : (
-        <span class="book__placeholder">{ad}</span>
+        <span class="book__placeholder meta">{ad}</span>
       )
     }
   </div>
   <div class="book__info">
     <h3 class="book__title">{ad}</h3>
-    <p class="book__author muted">{yazar}</p>
+    <p class="book__author meta">{yazar}</p>
     {not && <p class="book__note">{not}</p>}
   </div>
 </article>
@@ -28,30 +28,20 @@ const { ad, yazar, not, kapak } = Astro.props;
 <style>
   .book {
     display: flex;
-    gap: 18px;
-    padding: 18px;
-    border: 1px solid var(--line);
-    border-radius: var(--radius);
-    background: #fff;
-    transition: transform 0.25s ease, box-shadow 0.25s ease,
-      border-color 0.25s ease;
-  }
-  .book:hover {
-    transform: translateY(-3px);
-    box-shadow: var(--shadow);
-    border-color: var(--line-strong);
+    gap: var(--spacing-16);
+    padding: var(--spacing-16);
+    border: 1px solid var(--color-pencil-gray);
   }
   .book__cover {
-    flex: 0 0 92px;
-    width: 92px;
-    height: 132px;
-    border-radius: 8px;
-    overflow: hidden;
-    background: var(--accent-soft);
+    flex: 0 0 84px;
+    width: 84px;
+    height: 120px;
+    border: 1px solid var(--color-pencil-gray);
     display: flex;
     align-items: center;
     justify-content: center;
     text-align: center;
+    overflow: hidden;
   }
   .book__cover img {
     width: 100%;
@@ -59,25 +49,23 @@ const { ad, yazar, not, kapak } = Astro.props;
     object-fit: cover;
   }
   .book__placeholder {
-    font-family: var(--font-serif);
-    font-size: 0.85rem;
-    color: var(--accent);
-    padding: 8px;
+    padding: var(--spacing-8);
   }
   .book__info {
     min-width: 0;
   }
   .book__title {
-    font-size: 1.12rem;
-    margin: 2px 0 2px;
+    font-size: 14px;
+    font-weight: 500;
+    margin: 0 0 2px;
   }
   .book__author {
-    margin: 0 0 8px;
-    font-size: 0.92rem;
+    margin: 0 0 var(--spacing-8);
   }
   .book__note {
     margin: 0;
-    font-size: 0.95rem;
-    color: #3a382f;
+    font-size: 13px;
+    line-height: 1.5;
+    color: var(--color-ink-black);
   }
 </style>

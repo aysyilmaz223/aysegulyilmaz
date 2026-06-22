@@ -20,35 +20,54 @@ const yazilar = (await getCollection('yazdiklarim')).sort(
     subtitle="Denemeler, öyküler, kurgular, anılar… Beni ben yapan renkler."
   />
 
-  <section class="section">
-    <div class="container">
-      <div class="grid grid--2">
-        {
-          yazilar.map((yazi) => (
-            <a class="card" href={withBase(`/yazdiklarim/${yazi.id}`)}>
-              <div class="card__body">
-                <p class="card__meta">
-                  {yazi.data.tur ? `${yazi.data.tur} · ` : ''}
-                  {trTarih(yazi.data.date)}
-                </p>
-                <h3 class="card__title">{yazi.data.title}</h3>
-                {yazi.data.description && (
-                  <p class="card__excerpt">{yazi.data.description}</p>
-                )}
-                <span class="link-arrow oku">Oku →</span>
-              </div>
-            </a>
-          ))
-        }
-      </div>
-    </div>
-  </section>
+  <ul class="list">
+    {
+      yazilar.map((yazi) => (
+        <li>
+          <a class="row" href={withBase(`/yazdiklarim/${yazi.id}`)}>
+            <span class="row__meta meta">
+              {yazi.data.tur ? `${yazi.data.tur} · ` : ''}
+              {trTarih(yazi.data.date)}
+            </span>
+            <span class="row__title">{yazi.data.title}</span>
+            {yazi.data.description && (
+              <span class="row__desc meta">{yazi.data.description}</span>
+            )}
+          </a>
+        </li>
+      ))
+    }
+  </ul>
 </BaseLayout>
 
 <style>
-  .oku {
-    display: inline-block;
-    margin-top: 14px;
-    font-size: 0.92rem;
+  .list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    max-width: var(--prose-w);
+    border-top: 1px solid var(--color-pencil-gray);
+  }
+  .row {
+    display: block;
+    padding: var(--spacing-16) 0;
+    border-bottom: 1px solid var(--color-pencil-gray);
+  }
+  .row__meta {
+    display: block;
+    margin-bottom: var(--spacing-4);
+  }
+  .row__title {
+    display: block;
+    font-size: var(--text-body);
+    font-weight: 500;
+    color: var(--color-ink-black);
+  }
+  .row:hover .row__title {
+    color: var(--color-smoke);
+  }
+  .row__desc {
+    display: block;
+    margin-top: var(--spacing-4);
   }
 </style>

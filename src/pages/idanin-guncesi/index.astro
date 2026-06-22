@@ -20,79 +20,66 @@ const girdiler = (await getCollection('ida')).sort(
     subtitle="Labrador’um Ida ile günlerimizden küçük, sıcak notlar. 🐾"
   />
 
-  <section class="section">
-    <div class="container">
-      <div class="gunce">
-        {
-          girdiler.map((g) => (
-            <a class="gunce__item" href={withBase(`/idanin-guncesi/${g.id}`)}>
-              {g.data.foto && (
-                <div class="gunce__foto">
-                  <img src={withBase(g.data.foto)} alt={g.data.title} loading="lazy" />
-                </div>
-              )}
-              <div class="gunce__body">
-                <time class="card__meta">{trTarih(g.data.date)}</time>
-                <h3 class="card__title">{g.data.title}</h3>
-                <span class="link-arrow">Devamı →</span>
+  <ul class="gunce">
+    {
+      girdiler.map((g) => (
+        <li>
+          <a class="gunce__item" href={withBase(`/idanin-guncesi/${g.id}`)}>
+            {g.data.foto && (
+              <div class="gunce__foto">
+                <img src={withBase(g.data.foto)} alt={g.data.title} loading="lazy" />
               </div>
-            </a>
-          ))
-        }
-      </div>
-    </div>
-  </section>
+            )}
+            <div class="gunce__body">
+              <time class="meta">{trTarih(g.data.date)}</time>
+              <span class="gunce__title">{g.data.title}</span>
+            </div>
+          </a>
+        </li>
+      ))
+    }
+  </ul>
 </BaseLayout>
 
 <style>
   .gunce {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-    max-width: 760px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    max-width: 720px;
+    border-top: 1px solid var(--color-pencil-gray);
   }
   .gunce__item {
     display: grid;
-    grid-template-columns: 160px 1fr;
-    gap: 22px;
+    grid-template-columns: 140px 1fr;
+    gap: var(--spacing-16);
     align-items: center;
-    border: 1px solid var(--line);
-    border-radius: var(--radius);
-    overflow: hidden;
-    background: #fff;
-    transition: transform 0.25s ease, box-shadow 0.25s ease,
-      border-color 0.25s ease;
-  }
-  .gunce__item:hover {
-    transform: translateY(-3px);
-    box-shadow: var(--shadow);
-    border-color: var(--line-strong);
+    padding: var(--spacing-16) 0;
+    border-bottom: 1px solid var(--color-pencil-gray);
+    color: var(--color-ink-black);
   }
   .gunce__foto {
-    align-self: stretch;
-    min-height: 130px;
+    aspect-ratio: 3 / 2;
     overflow: hidden;
   }
   .gunce__foto img {
     width: 100%;
     height: 100%;
     object-fit: cover;
+    transition: opacity 0.2s ease;
   }
-  .gunce__body {
-    padding: 18px 22px 18px 0;
+  .gunce__item:hover .gunce__foto img {
+    opacity: 0.85;
   }
-  .gunce__body .card__title {
-    margin: 4px 0 10px;
+  .gunce__title {
+    display: block;
+    margin-top: var(--spacing-4);
+    font-size: 14px;
+    font-weight: 500;
   }
   @media (max-width: 540px) {
     .gunce__item {
       grid-template-columns: 1fr;
-    }
-    .gunce__foto {
-      aspect-ratio: 16 / 9;
-    }
-    .gunce__body {
-      padding: 0 20px 20px;
     }
   }
 </style>
