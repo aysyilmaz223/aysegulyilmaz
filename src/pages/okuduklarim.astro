@@ -18,6 +18,9 @@ import { withBase } from '../utils/url';
 
   <section class="section">
     <div class="container">
+      <figure class="lead-foto">
+        <img src={withBase('/images/okuduklarim.jpg')} alt="Okuduklarım" loading="lazy" />
+      </figure>
       <div class="cols2">
         {
           kitaplar.map((k) => (
@@ -28,3 +31,17 @@ import { withBase } from '../utils/url';
     </div>
   </section>
 </BaseLayout>
+
+<style>
+  .lead-foto {
+    margin: 0 auto var(--spacing-60);
+    max-width: 480px;
+    background: var(--color-pure-white);
+    border: 1px solid var(--color-loam);
+    padding: 8px;
+  }
+  .lead-foto img {
+    width: 100%;
+    height: auto;
+  }
+</style>
