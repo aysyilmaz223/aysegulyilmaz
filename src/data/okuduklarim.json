@@ -1,18 +1,3770 @@
 [
   {
-    "ad": "Yazarak Hafifleyin",
-    "yazar": "Yeşim Cimcoz",
-    "yil": "2023",
+    "ad": "Kayıp Aranıyor",
+    "yazar": "Sait Faik Abasıyanık",
+    "yil": "2026",
     "puan": 5,
-    "not": "Yazma yolculuğumun başladığı kitap. Duyguları altı dakikalık yazılarla dökmenin iyileştirici gücü.",
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1588258645l/16168868._SY160_.jpg"
+  },
+  {
+    "ad": "Yaz Sıcağı",
+    "yazar": "Defne Suman",
+    "yil": "2026",
+    "puan": 4,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1489946215l/34625079._SX98_.jpg"
+  },
+  {
+    "ad": "Japon Sevgili",
+    "yazar": "Isabel Allende",
+    "yil": "2026",
+    "puan": 4,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1498670678l/35530837._SX98_.jpg"
+  },
+  {
+    "ad": "Sıfır Noktasındaki Kadın",
+    "yazar": "Nawal El Saadawi",
+    "yil": "2026",
+    "puan": 4,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1471795166l/13599493._SX98_.jpg"
+  },
+  {
+    "ad": "Görmek ve Fark Etmek",
+    "yazar": "Alain de Botton",
+    "yil": "2026",
+    "puan": 2,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1484078537l/14739313._SX98_.jpg"
+  },
+  {
+    "ad": "Bir Mutluluk Reçetesi: Çağı Anlamak İçin Yazılar",
+    "yazar": "Selçuk Şirin",
+    "yil": "2026",
+    "puan": 4,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1746619035l/233200680._SX98_.jpg"
+  },
+  {
+    "ad": "Aradığın Şey Kütüphanede Saklı",
+    "yazar": "Michiko Aoyama",
+    "yil": "2026",
+    "puan": 5,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1724156907l/217898868._SX98_.jpg"
+  },
+  {
+    "ad": "Bir Nehir Değil",
+    "yazar": "Selva Almada",
+    "yil": "2026",
+    "puan": 3,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1748032891l/234844641._SX98_.jpg"
+  },
+  {
+    "ad": "Hatırlıyorum",
+    "yazar": "Georges Perec",
+    "yil": "2026",
+    "puan": 2,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1691752678l/196251172._SX98_.jpg"
+  },
+  {
+    "ad": "Yazmak Eylemi",
+    "yazar": "Ferit Edgü",
+    "yil": "2026",
+    "puan": 4,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1442329414l/7314075._SX98_.jpg"
+  },
+  {
+    "ad": "Neden Neden",
+    "yazar": "Ayşe Eser",
+    "yil": "2026",
+    "puan": 4,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1772649549l/249290323._SX98_.jpg"
+  },
+  {
+    "ad": "İşte Böyle Oldu",
+    "yazar": "Natalia Ginzburg",
+    "yil": "2026",
+    "puan": 3,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1681045385l/127024969._SX98_.jpg"
+  },
+  {
+    "ad": "Leblebi Tozu",
+    "yazar": "Yudum Güları",
+    "yil": "2026",
+    "puan": 5,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1699907862l/202089480._SX98_.jpg"
+  },
+  {
+    "ad": "Kibrit Çöpleri",
+    "yazar": "Murathan Mungan",
+    "yil": "2026",
+    "puan": 4,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1297594547l/10450470._SX98_.jpg"
+  },
+  {
+    "ad": "Beyaza Beyaz",
+    "yazar": "Aysegül Savas",
+    "yil": "2026",
+    "puan": 3,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1752750620l/238971257._SY160_.jpg"
+  },
+  {
+    "ad": "İki Yaşam",
+    "yazar": "Emanuele Trevi",
+    "yil": "2026",
+    "puan": 2,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1763118051l/243948004._SX98_.jpg"
+  },
+  {
+    "ad": "Yüzücüler",
+    "yazar": "Julie Otsuka",
+    "yil": "2026",
+    "puan": 4,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1677369931l/123012140._SX98_.jpg"
+  },
+  {
+    "ad": "Annemin Uyurgezer Geceleri",
+    "yazar": "Ayfer Tunç",
+    "yil": "2026",
+    "puan": 4,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1760978530l/242995969._SX98_.jpg"
+  },
+  {
+    "ad": "Madam Pylinska ve Chopin’in Sırrı",
+    "yazar": "Éric-Emmanuel Schmitt",
+    "yil": "2025",
+    "puan": 4,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1755765432l/240431873._SX98_.jpg"
+  },
+  {
+    "ad": "Yüzünde Güller Açan Keçelisıçan",
+    "yazar": "Frank Tashlin",
+    "yil": "2025",
+    "puan": 4,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1571316600l/36483261._SX98_.jpg"
+  },
+  {
+    "ad": "Bekle Beni",
+    "yazar": "Zülfü Livaneli",
+    "yil": "2025",
+    "puan": 1,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1757856399l/241620673._SX98_.jpg"
+  },
+  {
+    "ad": "Tuhaf Kütüphane",
+    "yazar": "Haruki Murakami",
+    "yil": "2025",
+    "puan": 3,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1481272076l/33296994._SX98_.jpg"
+  },
+  {
+    "ad": "Tavan Arasindaki Buda",
+    "yazar": "Julie Otsuka",
+    "yil": "2025",
+    "puan": 4,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1547744211l/43600796._SX98_.jpg"
+  },
+  {
+    "ad": "Malma İstasyonu",
+    "yazar": "Alex Schulman",
+    "yil": "2025",
+    "puan": 3,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1709274324l/209334782._SX98_.jpg"
+  },
+  {
+    "ad": "Tokyo’nun Son Çocukları",
+    "yazar": "Yōko Tawada",
+    "yil": "2025",
+    "puan": 2,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1581537234l/51147029._SX98_.jpg"
+  },
+  {
+    "ad": "Bazı Yaralar Yalnız Sarılır",
+    "yazar": "Önder Karanfil",
+    "yil": "2025",
+    "puan": 4,
+    "not": "",
     "kapak": ""
   },
   {
-    "ad": "Kitap adı",
-    "yazar": "Yazar adı",
-    "yil": "",
-    "puan": 0,
-    "not": "Yeni kitap eklemek için src/data/okuduklarim.json dosyasını düzenle. Alanlar: ad, yazar, yil, puan (0–5), not, kapak (örn. /images/kapak.jpg — isteğe bağlı).",
+    "ad": "Ahular Meydanı",
+    "yazar": "Elif Ceren Pehlivan",
+    "yil": "2025",
+    "puan": 4,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1761141223l/243062741._SX98_.jpg"
+  },
+  {
+    "ad": "Paris'e Giderken",
+    "yazar": "Peter Bichsel",
+    "yil": "2025",
+    "puan": 2,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1447871050l/27855874._SX98_.jpg"
+  },
+  {
+    "ad": "Kırık Rahvan",
+    "yazar": "Semih Öztürk",
+    "yil": "2025",
+    "puan": 4,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1720977673l/216476845._SX98_.jpg"
+  },
+  {
+    "ad": "Içimdeki Çocuktan Masallar",
+    "yazar": "Özlem Bay",
+    "yil": "2025",
+    "puan": 2,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1680632298l/113702900._SX98_.jpg"
+  },
+  {
+    "ad": "Bakışınızı Değiştirecek 10 Deney: İnsan",
+    "yazar": "Selçuk Şirin",
+    "yil": "2025",
+    "puan": 5,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1731533189l/221493506._SX98_.jpg"
+  },
+  {
+    "ad": "Bazı Yazlar Uzaktan Geçer",
+    "yazar": "Murathan Mungan",
+    "yil": "2025",
+    "puan": 3,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1403260906l/11416832._SX98_.jpg"
+  },
+  {
+    "ad": "189 Sayfa",
+    "yazar": "Murathan Mungan",
+    "yil": "2025",
+    "puan": 4,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1390657824l/20631671._SX98_.jpg"
+  },
+  {
+    "ad": "Gökyüzünü Bilmeyen Leke Sanıyor Kuşları",
+    "yazar": "Ezgi Tek",
+    "yil": "2025",
+    "puan": 4,
+    "not": "",
     "kapak": ""
+  },
+  {
+    "ad": "Kirpinin Zarafeti",
+    "yazar": "Muriel Barbery",
+    "yil": "2025",
+    "puan": 3,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1324668626l/13284417._SX98_.jpg"
+  },
+  {
+    "ad": "Anlatmak İçin Yaşamak",
+    "yazar": "Gabriel García Márquez",
+    "yil": "2025",
+    "puan": 4,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1363640417l/17207487._SX98_.jpg"
+  },
+  {
+    "ad": "Paranın Cinleri",
+    "yazar": "Murathan Mungan",
+    "yil": "2025",
+    "puan": 4,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1464163139l/6234404._SX98_.jpg"
+  },
+  {
+    "ad": "Kirk Yama",
+    "yazar": "Bige Güven Kızılay",
+    "yil": "2025",
+    "puan": 5,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1583330527l/52081935._SX98_.jpg"
+  },
+  {
+    "ad": "Fil Gözü",
+    "yazar": "Mevsim Yenice",
+    "yil": "2025",
+    "puan": 3,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1715274523l/213121554._SX98_.jpg"
+  },
+  {
+    "ad": "Beni Gözünüzde Büyütmeyin!",
+    "yazar": "Gülse Birsel",
+    "yil": "2025",
+    "puan": 2,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1717364315l/214168140._SX98_.jpg"
+  },
+  {
+    "ad": "Bir Kadının Kavgaları ve Dönüşümleri",
+    "yazar": "Édouard Louis",
+    "yil": "2025",
+    "puan": 3,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1711398754l/210357967._SX98_.jpg"
+  },
+  {
+    "ad": "Dul",
+    "yazar": "Jean-Louis Fournier",
+    "yil": "2025",
+    "puan": 4,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1438335955l/17827080._SX98_.jpg"
+  },
+  {
+    "ad": "Son Yüzyılın En Parlak Yazarı",
+    "yazar": "Deniz Mat Artun",
+    "yil": "2025",
+    "puan": 4,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1730742074l/221203394._SX98_.jpg"
+  },
+  {
+    "ad": "Belki Yaz Erken Gelir",
+    "yazar": "Yekta Kopan",
+    "yil": "2025",
+    "puan": 3,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1729795229l/220803136._SX98_.jpg"
+  },
+  {
+    "ad": "Kedilerin Kaybolma Mevsimi",
+    "yazar": "Behiç Ak",
+    "yil": "2025",
+    "puan": 4,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1422624445l/24762157._SX98_.jpg"
+  },
+  {
+    "ad": "Hyunam-Dong Kitabevi",
+    "yazar": "Hwang Bo-Reum",
+    "yil": "2025",
+    "puan": 4,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1718837177l/207614832._SX98_.jpg"
+  },
+  {
+    "ad": "Sabahın Üçü",
+    "yazar": "Gianrico Carofiglio",
+    "yil": "2025",
+    "puan": 5,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1717090160l/214032256._SX98_.jpg"
+  },
+  {
+    "ad": "Erteleme Sanatı",
+    "yazar": "John R. Perry",
+    "yil": "2024",
+    "puan": 2,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1409258884l/23121276._SX98_.jpg"
+  },
+  {
+    "ad": "Büyü Dükkanı",
+    "yazar": "Yeşim Türköz",
+    "yil": "2025",
+    "puan": 5,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1306321453l/11455105._SX98_.jpg"
+  },
+  {
+    "ad": "Eve Dönmenin Yolları",
+    "yazar": "Alejandro Zambra",
+    "yil": "2024",
+    "puan": 3,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1487877199l/18138123._SX98_.jpg"
+  },
+  {
+    "ad": "Yaşamak",
+    "yazar": "Yu Hua",
+    "yil": "2024",
+    "puan": 4,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1746642986l/29973074._SX98_.jpg"
+  },
+  {
+    "ad": "Ankara, Mon Amour!",
+    "yazar": "Şükran Yiğit",
+    "yil": "2024",
+    "puan": 3,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1285427091l/9397177._SX98_.jpg"
+  },
+  {
+    "ad": "Uçurtmayı Vurmasınlar",
+    "yazar": "Feride Çiçekoğlu",
+    "yil": "2024",
+    "puan": 4,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1328396069l/13452957._SX98_SY160_.jpg"
+  },
+  {
+    "ad": "Someone Else's Shoes",
+    "yazar": "Jojo Moyes",
+    "yil": "2024",
+    "puan": 4,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1666822989l/62971668._SX98_.jpg"
+  },
+  {
+    "ad": "Yabancı Bir Gezegenden Tuhaf Haberler",
+    "yazar": "Hermann Hesse",
+    "yil": "2024",
+    "puan": 3,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1346946230l/13582301._SX98_.jpg"
+  },
+  {
+    "ad": "Ankara Diye İnsanlar Vardır",
+    "yazar": "Bige Güven Kızılay",
+    "yil": "2024",
+    "puan": 5,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1718904768l/209340722._SX98_.jpg"
+  },
+  {
+    "ad": "Yuva",
+    "yazar": "Judith Hermann",
+    "yil": "2024",
+    "puan": 3,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1675277220l/95412047._SX98_.jpg"
+  },
+  {
+    "ad": "Şemspare",
+    "yazar": "Elif Shafak",
+    "yil": "2024",
+    "puan": 4,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1388259388l/15743371._SX98_.jpg"
+  },
+  {
+    "ad": "İskender",
+    "yazar": "Elif Shafak",
+    "yil": "2024",
+    "puan": 4,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1311316740l/12090860._SX98_.jpg"
+  },
+  {
+    "ad": "Aşk",
+    "yazar": "Elif Shafak",
+    "yil": "2010",
+    "puan": 4,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1237239242l/6341492._SX98_.jpg"
+  },
+  {
+    "ad": "Salkım Sokak, No:3",
+    "yazar": "İclal Aydın",
+    "yil": "2024",
+    "puan": 5,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1719429806l/215507355._SX98_.jpg"
+  },
+  {
+    "ad": "Doğrular, Gecikilenler, Kazanımlar - Mühendisçe",
+    "yazar": "Murat Kurtuluş",
+    "yil": "2024",
+    "puan": 3,
+    "not": "",
+    "kapak": ""
+  },
+  {
+    "ad": "Unutursun",
+    "yazar": "İclal Aydın",
+    "yil": "2024",
+    "puan": 5,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1486156011l/34109556._SX98_.jpg"
+  },
+  {
+    "ad": "Keder ve Mutluluk",
+    "yazar": "Meg Mason",
+    "yil": "2024",
+    "puan": 3,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1683522716l/150315263._SX98_.jpg"
+  },
+  {
+    "ad": "Bunu Sen Oku",
+    "yazar": "İclal Aydın",
+    "yil": "2024",
+    "puan": 4,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1686251547l/175659483._SX98_.jpg"
+  },
+  {
+    "ad": "Ses",
+    "yazar": "Sabahattin Ali",
+    "yil": "2024",
+    "puan": 5,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1547748515l/43601303._SX98_.jpg"
+  },
+  {
+    "ad": "Esen Kal İyi Yönet",
+    "yazar": "Sibel Yücesan",
+    "yil": "2024",
+    "puan": 4,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1699187919l/152121303._SX98_.jpg"
+  },
+  {
+    "ad": "Yürümenin Felsefesi",
+    "yazar": "Frédéric Gros",
+    "yil": "2024",
+    "puan": 3,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1486802848l/34224850._SX98_.jpg"
+  },
+  {
+    "ad": "Ağrıdağı Efsanesi",
+    "yazar": "Yaşar Kemal",
+    "yil": "2024",
+    "puan": 4,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1437774168l/175574._SX98_.jpg"
+  },
+  {
+    "ad": "Her Ailenin Bir Hikayesi Vardır: Sevgiyi ve Kaybı Nasıl Miras Alırız?",
+    "yazar": "Julia Samuel",
+    "yil": "2024",
+    "puan": 3,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1686326996l/175879632._SX98_.jpg"
+  },
+  {
+    "ad": "Hanımların Dikkatine",
+    "yazar": "Seray Şahiner",
+    "yil": "2024",
+    "puan": 4,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1560578703l/52918477._SX98_SY160_.jpg"
+  },
+  {
+    "ad": "Parkta",
+    "yazar": "Marguerite Duras",
+    "yil": "2024",
+    "puan": 2,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1677370106l/123012158._SX98_.jpg"
+  },
+  {
+    "ad": "Before the Coffee Gets Cold (Before the Coffee Gets Cold, #1)",
+    "yazar": "Toshikazu Kawaguchi",
+    "yil": "2024",
+    "puan": 4,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1704153539l/44421460._SX98_.jpg"
+  },
+  {
+    "ad": "Emanet Çocuk",
+    "yazar": "Claire Keegan",
+    "yil": "2024",
+    "puan": 4,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1619529920l/57875008._SX98_.jpg"
+  },
+  {
+    "ad": "Mor",
+    "yazar": "İnci Aral",
+    "yil": "2024",
+    "puan": 4,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1185797228l/1606894._SX98_.jpg"
+  },
+  {
+    "ad": "Gidiyor, Gitti, Gitmiş",
+    "yazar": "Jenny Erpenbeck",
+    "yil": "2021",
+    "puan": 3,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1527864669l/40281769._SX98_.jpg"
+  },
+  {
+    "ad": "Gece Yarısı Kütüphanesi",
+    "yazar": "Matt Haig",
+    "yil": "2024",
+    "puan": 4,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1622126009l/58176395._SX98_.jpg"
+  },
+  {
+    "ad": "Nereye Gidiyoruz Baba?",
+    "yazar": "Jean-Louis Fournier",
+    "yil": "2024",
+    "puan": 3,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1482532122l/17284053._SX98_.jpg"
+  },
+  {
+    "ad": "Günler Aylar Yıllar",
+    "yazar": "Yan Lianke",
+    "yil": "2024",
+    "puan": 3,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1580405375l/50710345._SX98_.jpg"
+  },
+  {
+    "ad": "Wintering: The Power of Rest and Retreat in Difficult Times",
+    "yazar": "Katherine May",
+    "yil": "2024",
+    "puan": 3,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1726073493l/52623750._SX98_.jpg"
+  },
+  {
+    "ad": "Beyaz Kitap",
+    "yazar": "Han Kang",
+    "yil": "2024",
+    "puan": 3,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1610530110l/56654511._SX98_.jpg"
+  },
+  {
+    "ad": "Gözümden Deliler Taştı",
+    "yazar": "Çağan Irmak",
+    "yil": "2024",
+    "puan": 4,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1695593638l/199130257._SX98_.jpg"
+  },
+  {
+    "ad": "Harita Metod Defteri",
+    "yazar": "Murathan Mungan",
+    "yil": "2023",
+    "puan": 5,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1447020403l/27731514._SX98_.jpg"
+  },
+  {
+    "ad": "Şeylerin Ağırlığı",
+    "yazar": "Marianne Fritz",
+    "yil": "2023",
+    "puan": 2,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1690069419l/193824346._SX98_.jpg"
+  },
+  {
+    "ad": "Whereabouts",
+    "yazar": "Jhumpa Lahiri",
+    "yil": "2023",
+    "puan": 5,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1597695938l/53438824._SX98_.jpg"
+  },
+  {
+    "ad": "Doppler (Doppler, #1)",
+    "yazar": "Erlend Loe",
+    "yil": "2023",
+    "puan": 3,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1453151019l/28574132._SX98_.jpg"
+  },
+  {
+    "ad": "Düşbükü",
+    "yazar": "Ferhan Şensoy",
+    "yil": "2023",
+    "puan": 3,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1485139064l/12485687._SX98_.jpg"
+  },
+  {
+    "ad": "Arkadaşıma Veda",
+    "yazar": "Zülfü Livaneli",
+    "yil": "2023",
+    "puan": 5,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1476509307l/32612033._SX98_.jpg"
+  },
+  {
+    "ad": "Kuzeyli Annem",
+    "yazar": "Jean-Louis Fournier",
+    "yil": "2023",
+    "puan": 4,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1504915445l/36207963._SX98_.jpg"
+  },
+  {
+    "ad": "Bütün İyiler Biraz Küskündür",
+    "yazar": "Nilay Örnek",
+    "yil": "2023",
+    "puan": 5,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1507231612l/36359912._SX98_.jpg"
+  },
+  {
+    "ad": "Dört Mevsim Mehlika",
+    "yazar": "Işıl Ertunç",
+    "yil": "2023",
+    "puan": 4,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1631959044l/59019201._SX98_.jpg"
+  },
+  {
+    "ad": "Böyle Küçük Şeyler",
+    "yazar": "Claire Keegan",
+    "yil": "2023",
+    "puan": 4,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1764418192l/62976020._SX98_.jpg"
+  },
+  {
+    "ad": "Ateş (Uyumsuz Defne Kaman'ın Maceraları, #4)",
+    "yazar": "Buket Uzuner",
+    "yil": "2023",
+    "puan": 5,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1673823210l/78294975._SX98_.jpg"
+  },
+  {
+    "ad": "Aforizmalar",
+    "yazar": "Franz Kafka",
+    "yil": "2014",
+    "puan": 3,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1437976021l/15047085._SY160_.jpg"
+  },
+  {
+    "ad": "Bir Kadın",
+    "yazar": "Annie Ernaux",
+    "yil": "2023",
+    "puan": 4,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1680883626l/126118411._SX98_.jpg"
+  },
+  {
+    "ad": "Mehmet’in Babası Nazım",
+    "yazar": "Gündüz Vassaf",
+    "yil": "2023",
+    "puan": 5,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1629402335l/58810999._SX98_.jpg"
+  },
+  {
+    "ad": "Var Mıydık?",
+    "yazar": "Various",
+    "yil": "2023",
+    "puan": 2,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1682274746l/139158291._SX98_.jpg"
+  },
+  {
+    "ad": "Yolculuklara Kapılardan Çıkılır",
+    "yazar": "Idil Nakiboğlu Dammer",
+    "yil": "2023",
+    "puan": 4,
+    "not": "",
+    "kapak": ""
+  },
+  {
+    "ad": "Kuru Kız",
+    "yazar": "Ayfer Tunç",
+    "yil": "2023",
+    "puan": 4,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1677838353l/123169819._SX98_.jpg"
+  },
+  {
+    "ad": "Ağaçname - Sen Ne Güzel Bir Ağaçsın!",
+    "yazar": "Selçuk Demirel",
+    "yil": "2023",
+    "puan": 4,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1681401030l/130875119._SX98_.jpg"
+  },
+  {
+    "ad": "Bozburun;Bozburun'u bili miyosun?",
+    "yazar": "Sühenda Taskin Mengüc",
+    "yil": "2023",
+    "puan": 4,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1680271295l/108592578._SX98_.jpg"
+  },
+  {
+    "ad": "Melek Terörist Fahişe",
+    "yazar": "Osman Balcıgil",
+    "yil": "2023",
+    "puan": 4,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1654722805l/61252424._SX98_.jpg"
+  },
+  {
+    "ad": "Hızlandıkça Azalıyorum",
+    "yazar": "Kjersti Annesdatter Skomsvold",
+    "yil": "2023",
+    "puan": 3,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1465586483l/30516169._SX98_.jpg"
+  },
+  {
+    "ad": "Bana Kuşlar Söyledi",
+    "yazar": "Yekta Kopan",
+    "yil": "2023",
+    "puan": 4,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1649510875l/58325370._SX98_.jpg"
+  },
+  {
+    "ad": "Kızlarıma Notlar",
+    "yazar": "Ahter Kutadgu",
+    "yil": "2023",
+    "puan": 3,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1491206933l/30719169._SX98_.jpg"
+  },
+  {
+    "ad": "Çam Ağacının Gölgesinde",
+    "yazar": "Handan Kılıç",
+    "yil": "2023",
+    "puan": 4,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1677475610l/123018831._SX98_.jpg"
+  },
+  {
+    "ad": "Yeni Dünya",
+    "yazar": "Sabahattin Ali",
+    "yil": "2023",
+    "puan": 4,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1610447942l/56645331._SX98_.jpg"
+  },
+  {
+    "ad": "Love",
+    "yazar": "Maayan Eitan",
+    "yil": "2023",
+    "puan": 3,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1620148832l/57946470._SX98_.jpg"
+  },
+  {
+    "ad": "Gezgin",
+    "yazar": "Kahlil Gibran",
+    "yil": "2023",
+    "puan": 3,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1483121512l/33642488._SY160_.jpg"
+  },
+  {
+    "ad": "Tüylü Bir Şeydir Şu Yas",
+    "yazar": "Max Porter",
+    "yil": "2023",
+    "puan": 4,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1496957856l/35390989._SX98_.jpg"
+  },
+  {
+    "ad": "Mazhar Saka Kafesinden Uçtu",
+    "yazar": "Thomas Baas",
+    "yil": "2023",
+    "puan": 4,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1548315711l/43694567._SX98_.jpg"
+  },
+  {
+    "ad": "Tek Yalnız Ben Değilim",
+    "yazar": "Jean-Louis Fournier",
+    "yil": "2023",
+    "puan": 4,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1610730680l/56677088._SX98_.jpg"
+  },
+  {
+    "ad": "Erkekler",
+    "yazar": "Ayşe Akaltun",
+    "yil": "2022",
+    "puan": 4,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1433672187l/25681409._SX98_.jpg"
+  },
+  {
+    "ad": "Doğdum",
+    "yazar": "Georges Perec",
+    "yil": "2022",
+    "puan": 2,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1636804239l/59609150._SX98_.jpg"
+  },
+  {
+    "ad": "Başkalarının Tanrısı",
+    "yazar": "Mine Söğüt",
+    "yil": "2022",
+    "puan": 3,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1649867517l/60764861._SX98_.jpg"
+  },
+  {
+    "ad": "Büyü Dükkanı Üçüncü Bahar",
+    "yazar": "Yeşim  Türköz",
+    "yil": "2022",
+    "puan": 5,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1629813205l/58845888._SX98_.jpg"
+  },
+  {
+    "ad": "Köpek Öyküleri",
+    "yazar": "Kadir Aydemir",
+    "yil": "2022",
+    "puan": 2,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1629653463l/58830057._SX98_.jpg"
+  },
+  {
+    "ad": "Emanet Zaman",
+    "yazar": "Defne Suman",
+    "yil": "2022",
+    "puan": 4,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1459411794l/29424754._SX98_.jpg"
+  },
+  {
+    "ad": "Söylenmemiş Sözler",
+    "yazar": "İclal Aydın",
+    "yil": "2022",
+    "puan": 4,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1621367247l/58090148._SX98_.jpg"
+  },
+  {
+    "ad": "Bir Türkiye Hayali",
+    "yazar": "Selçuk R. Şirin",
+    "yil": "2022",
+    "puan": 5,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1488463470l/34447992._SY160_.jpg"
+  },
+  {
+    "ad": "Tüneldeki Çocuk",
+    "yazar": "Sait Faik Abasıyanık",
+    "yil": "2018",
+    "puan": 5,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1468867049l/31128359._SY160_.jpg"
+  },
+  {
+    "ad": "Lüzumsuz Adam",
+    "yazar": "Sait Faik Abasıyanık",
+    "yil": "2017",
+    "puan": 4,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1426373190l/18271709._SY160_.jpg"
+  },
+  {
+    "ad": "¡No me mires así!",
+    "yazar": "Gökçe Gökçeer",
+    "yil": "2022",
+    "puan": 5,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1652703114l/61107792._SX98_.jpg"
+  },
+  {
+    "ad": "Dedektif Zebra ve Kayıp Kurabiyelerin Gizemi",
+    "yazar": "Gill McLean",
+    "yil": "2022",
+    "puan": 4,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1593782643l/54373965._SX98_.jpg"
+  },
+  {
+    "ad": "Şahmerdan",
+    "yazar": "Sait Faik Abasıyanık",
+    "yil": "2022",
+    "puan": 3,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1538902475l/11777135._SX98_.jpg"
+  },
+  {
+    "ad": "İçimde Kim Var",
+    "yazar": "Yekta Kopan",
+    "yil": "2022",
+    "puan": 3,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1563047551l/49645132._SX98_SY160_.jpg"
+  },
+  {
+    "ad": "Metal Yorgunluğu: Seçme Öyküler",
+    "yazar": "Tomris Uyar",
+    "yil": "2022",
+    "puan": 5,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1491736091l/14058665._SX98_.jpg"
+  },
+  {
+    "ad": "Hepberaber",
+    "yazar": "Ece Temelkuran",
+    "yil": "2022",
+    "puan": 5,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1638811156l/59764280._SX98_.jpg"
+  },
+  {
+    "ad": "Kuş Masalları",
+    "yazar": "Şermin Yaşar",
+    "yil": "2022",
+    "puan": 4,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1542709815l/42871270._SX98_.jpg"
+  },
+  {
+    "ad": "Okçu'nun Yolu",
+    "yazar": "Paulo Coelho",
+    "yil": "2022",
+    "puan": 4,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1631899668l/59015794._SX98_.jpg"
+  },
+  {
+    "ad": "Kalk Yerine Yat",
+    "yazar": "Şermin Yaşar",
+    "yil": "2022",
+    "puan": 4,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1638474907l/59742938._SX98_.jpg"
+  },
+  {
+    "ad": "Eski Dünyanın Yangını",
+    "yazar": "Kalben Sağdıç",
+    "yil": "2022",
+    "puan": 3,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1641947103l/60106772._SX98_.jpg"
+  },
+  {
+    "ad": "Noel Domuçu ile Jack'in Müthiş Maceraları",
+    "yazar": "J.K. Rowling",
+    "yil": "2022",
+    "puan": 4,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1635938066l/59527074._SX98_.jpg"
+  },
+  {
+    "ad": "Ayna Merdiven",
+    "yazar": "Ferhan Şensoy",
+    "yil": "2022",
+    "puan": 2,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1647868365l/16038004._SX98_.jpg"
+  },
+  {
+    "ad": "Üzümlü Kek",
+    "yazar": "Aşkım Kapışmak",
+    "yil": "2022",
+    "puan": 4,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1477288529l/32733873._SX98_.jpg"
+  },
+  {
+    "ad": "Yeşil",
+    "yazar": "İnci Aral",
+    "yil": "2022",
+    "puan": 4,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1529310487l/40554732._SX98_.jpg"
+  },
+  {
+    "ad": "Aramızdaki Şey",
+    "yazar": "Tomris Uyar",
+    "yil": "2022",
+    "puan": 4,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1496347470l/6698615._SX98_.jpg"
+  },
+  {
+    "ad": "Seyir",
+    "yazar": "Piraye",
+    "yil": "2022",
+    "puan": 4,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1580422618l/50725315._SX98_.jpg"
+  },
+  {
+    "ad": "Sessiz Hasta",
+    "yazar": "Alex Michaelides",
+    "yil": "2022",
+    "puan": 4,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1614678812l/57287199._SX98_.jpg"
+  },
+  {
+    "ad": "Çocuk, Köstebek, Tilki ve At",
+    "yazar": "Charlie Mackesy",
+    "yil": "2022",
+    "puan": 5,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1646429614l/59816986._SX98_.jpg"
+  },
+  {
+    "ad": "Kayıp Kızın Hikâyesi (Napoli Romanları, #4)",
+    "yazar": "Elena Ferrante",
+    "yil": "2022",
+    "puan": 5,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1457698190l/29482743._SX98_.jpg"
+  },
+  {
+    "ad": "Zeno ve Mondo : Dalgalarla Dans Eden Kurbagalar",
+    "yazar": "Nilay Yilmaz",
+    "yil": "2022",
+    "puan": 4,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1592491332l/54153256._SX98_.jpg"
+  },
+  {
+    "ad": "Tarçın'ın Kaybolan Havuçları",
+    "yazar": "Andreas König",
+    "yil": "2022",
+    "puan": 4,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1581922663l/51350761._SX98_.jpg"
+  },
+  {
+    "ad": "Davetsiz Misafirler",
+    "yazar": "Stephanie    Moss",
+    "yil": "2022",
+    "puan": 0,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1581658855l/51245955._SX98_.jpg"
+  },
+  {
+    "ad": "The Girl Who Never Made Mistakes",
+    "yazar": "Mark Pett",
+    "yil": "2022",
+    "puan": 0,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1348348811l/11526654._SX98_.jpg"
+  },
+  {
+    "ad": "İç Kitabı",
+    "yazar": "Ece Temelkuran",
+    "yil": "2017",
+    "puan": 3,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1476796428l/32686354._SX98_.jpg"
+  },
+  {
+    "ad": "Kıyı Kitabı",
+    "yazar": "Ece Temelkuran",
+    "yil": "2017",
+    "puan": 3,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1478365634l/32877426._SX98_.jpg"
+  },
+  {
+    "ad": "Huzursuzluk",
+    "yazar": "Zülfü Livaneli",
+    "yil": "2017",
+    "puan": 5,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1483606279l/33797647._SX98_.jpg"
+  },
+  {
+    "ad": "Terk Edenler ve Kalanlar (Napoli Romanları, #3)",
+    "yazar": "Elena Ferrante",
+    "yil": "2021",
+    "puan": 5,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1452249472l/28367465._SX98_.jpg"
+  },
+  {
+    "ad": "Kitapları Kurtaran Kedi",
+    "yazar": "Sōsuke Natsukawa",
+    "yil": "2021",
+    "puan": 5,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1636391665l/55811337._SX98_.jpg"
+  },
+  {
+    "ad": "Yeni Soyadının Hikâyesi (Napoli Romanları, #2)",
+    "yazar": "Elena Ferrante",
+    "yil": "2021",
+    "puan": 4,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1441574064l/26239561._SX98_.jpg"
+  },
+  {
+    "ad": "Yuval Noah Harari Seti: Sapiens - Homo Deus - 21. Yüzyıl İçin 21 Ders (Turkish Edition)",
+    "yazar": "Yuval Noah Harari",
+    "yil": "2021",
+    "puan": 5,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1606248872l/56034412._SX98_.jpg"
+  },
+  {
+    "ad": "Benim Olağanüstü Akıllı Arkadaşım (L'amica geniale #1)",
+    "yazar": "Elena Ferrante",
+    "yil": "2021",
+    "puan": 3,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1447768941l/25847138._SX98_.jpg"
+  },
+  {
+    "ad": "Kalbimin Can Mayası: Bir Uzun Sonbahardı Yaşadığımız",
+    "yazar": "İclal Aydın",
+    "yil": "2021",
+    "puan": 5,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1571803255l/48560628._SX98_.jpg"
+  },
+  {
+    "ad": "Üç Kız Kardeş",
+    "yazar": "İclal Aydın",
+    "yil": "2021",
+    "puan": 5,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1532800933l/40968830._SX98_.jpg"
+  },
+  {
+    "ad": "Körlük",
+    "yazar": "José Saramago",
+    "yil": "2021",
+    "puan": 4,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1495137780l/35168102._SX98_.jpg"
+  },
+  {
+    "ad": "Önce Hayal",
+    "yazar": "Judith Malika Liberman",
+    "yil": "2021",
+    "puan": 4,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1587146193l/49929911._SX98_.jpg"
+  },
+  {
+    "ad": "Balıkçı ve Oğlu",
+    "yazar": "Zülfü Livaneli",
+    "yil": "2021",
+    "puan": 5,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1622668299l/58247330._SY160_.jpg"
+  },
+  {
+    "ad": "Pembe Tuvalet",
+    "yazar": "Tolga Gümüşay",
+    "yil": "2021",
+    "puan": 4,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1420122382l/24241552._SX98_.jpg"
+  },
+  {
+    "ad": "Bizim Öykümüz",
+    "yazar": "Ömür Sabuncuoğlu",
+    "yil": "2021",
+    "puan": 4,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1576689811l/49428830._SX98_.jpg"
+  },
+  {
+    "ad": "Masalcı",
+    "yazar": "Walter Benjamin",
+    "yil": "2021",
+    "puan": 1,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1593537954l/51413108._SX98_.jpg"
+  },
+  {
+    "ad": "Kâtip Bartleby & Benito Cereno",
+    "yazar": "Herman Melville",
+    "yil": "2019",
+    "puan": 2,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1637051551l/25890308._SX98_.jpg"
+  },
+  {
+    "ad": "Bir Nefes Gibi",
+    "yazar": "Ferzan Özpetek",
+    "yil": "2021",
+    "puan": 5,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1592418857l/54141560._SX98_.jpg"
+  },
+  {
+    "ad": "Neden Çocuk Kitapları Okumalıyız",
+    "yazar": "Katherine Rundell",
+    "yil": "2021",
+    "puan": 4,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1593416837l/54315642._SX98_.jpg"
+  },
+  {
+    "ad": "Sessizlik",
+    "yazar": "Engin Akyürek",
+    "yil": "2021",
+    "puan": 4,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1538631048l/42107989._SX98_.jpg"
+  },
+  {
+    "ad": "Bay Ağaç Değişiyor",
+    "yazar": "Hülya Biyan",
+    "yil": "2021",
+    "puan": 4,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1580806888l/50994650._SX98_.jpg"
+  },
+  {
+    "ad": "Zuzu Çöplükte",
+    "yazar": "Görkem Kantar Arsoy",
+    "yil": "2021",
+    "puan": 4,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1438187668l/26004265._SX98_.jpg"
+  },
+  {
+    "ad": "Bu Şehrin Mutfaklarında Bıçak Yok",
+    "yazar": "Khaled Khalifa",
+    "yil": "2021",
+    "puan": 4,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1599046785l/55211453._SX98_.jpg"
+  },
+  {
+    "ad": "Bu da Geçer",
+    "yazar": "Ece Temelkuran",
+    "yil": "2021",
+    "puan": 5,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1610391598l/56635964._SX98_.jpg"
+  },
+  {
+    "ad": "Doğma Yavrum Dünya Çok Kalabalık",
+    "yazar": "Armağan Portakal",
+    "yil": "2021",
+    "puan": 4,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1519407947l/38729875._SX98_.jpg"
+  },
+  {
+    "ad": "Ask Var, Düsersen; Yolculuk, Ask ve Yeniden Baslamak Temali Öyküler",
+    "yazar": "Various",
+    "yil": "2021",
+    "puan": 3,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1610905942l/56696866._SX98_.jpg"
+  },
+  {
+    "ad": "Özgürlügün Rengi Mavidir",
+    "yazar": "Cem Seymen",
+    "yil": "2021",
+    "puan": 5,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1609665474l/56526729._SX98_.jpg"
+  },
+  {
+    "ad": "Güneşi Bile Tamir Eden Adam",
+    "yazar": "Behiç Ak",
+    "yil": "2021",
+    "puan": 3,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1429468244l/25389894._SX98_.jpg"
+  },
+  {
+    "ad": "Alev Saçlı Çocuk",
+    "yazar": "Christine Nöstlinger",
+    "yil": "2021",
+    "puan": 5,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1453795566l/28711109._SX98_.jpg"
+  },
+  {
+    "ad": "The Bear That Wasn't (Dover Children's Thrift Classics)",
+    "yazar": "Frank Tashlin",
+    "yil": "2021",
+    "puan": 5,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1328867497l/752988._SX98_.jpg"
+  },
+  {
+    "ad": "Stormy: A Story about Finding a Forever Home",
+    "yazar": "Guojing",
+    "yil": "2021",
+    "puan": 5,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1549431970l/43861612._SX98_.jpg"
+  },
+  {
+    "ad": "Rengini Arayan Pudra",
+    "yazar": "Betül Sayın",
+    "yil": "2021",
+    "puan": 4,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1398081171l/21956366._SX98_.jpg"
+  },
+  {
+    "ad": "Madeline Finn and the Library Dog",
+    "yazar": "Lisa Papp",
+    "yil": "2021",
+    "puan": 5,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1456692978l/29279220._SX98_.jpg"
+  },
+  {
+    "ad": "Bir Masal İyi Gelir - Seç Bir Masal Dur, Dinle, Demlen",
+    "yazar": "Judith Malika Liberman",
+    "yil": "2021",
+    "puan": 5,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1605871203l/55960880._SX98_.jpg"
+  },
+  {
+    "ad": "İkigai: Japonların Uzun ve Mutlu Yaşam Sırrı",
+    "yazar": "Héctor  García",
+    "yil": "2018",
+    "puan": 2,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1521479206l/37536045._SX98_.jpg"
+  },
+  {
+    "ad": "Şeker Portakalı (Zeze, #1)",
+    "yazar": "José Mauro de Vasconcelos",
+    "yil": "2020",
+    "puan": 5,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1431595380l/13490314._SX98_.jpg"
+  },
+  {
+    "ad": "ORTALIKTA DÜZGÜN ERKEK VAR",
+    "yazar": "Yunus Sezener",
+    "yil": "2020",
+    "puan": 4,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1555058042l/45026192._SX98_.jpg"
+  },
+  {
+    "ad": "Yedi Derste Vicdan Muhasebesi",
+    "yazar": "Yekta Kopan",
+    "yil": "2020",
+    "puan": 2,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1332708300l/13560669._SX98_.jpg"
+  },
+  {
+    "ad": "Herkes Kendi Hayatının Kahramanı",
+    "yazar": "Gülcan Özer",
+    "yil": "2020",
+    "puan": 4,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1491577866l/34818018._SX98_.jpg"
+  },
+  {
+    "ad": "Suya Yazılan",
+    "yazar": "Fazıl Say",
+    "yil": "2020",
+    "puan": 5,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1598682067l/54979775._SX98_.jpg"
+  },
+  {
+    "ad": "Ustaca Sevmek",
+    "yazar": "Miguel Ruiz",
+    "yil": "2020",
+    "puan": 4,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1479884751l/29587758._SX98_.jpg"
+  },
+  {
+    "ad": "835 Satır: Şiirler 1",
+    "yazar": "Nâzım Hikmet",
+    "yil": "2020",
+    "puan": 4,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1453308006l/7348429._SX98_.jpg"
+  },
+  {
+    "ad": "Her Şey Geçer",
+    "yazar": "Elif Türkölmez",
+    "yil": "2020",
+    "puan": 3,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1599419133l/50905454._SX98_.jpg"
+  },
+  {
+    "ad": "İstanbul Hatırası",
+    "yazar": "Ahmet Ümit",
+    "yil": "2020",
+    "puan": 5,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1280237203l/8527790._SX98_.jpg"
+  },
+  {
+    "ad": "Masallar ve Gerçekler Ülkesi Anadolu",
+    "yazar": "Ahter Kutadgu",
+    "yil": "2020",
+    "puan": 4,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1504453832l/36174741._SY160_.jpg"
+  },
+  {
+    "ad": "Cehennem Çiçeği (Alper Kamu, #2)",
+    "yazar": "Alper Canıgüz",
+    "yil": "2020",
+    "puan": 5,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1368803415l/17930729._SX98_.jpg"
+  },
+  {
+    "ad": "Satranç",
+    "yazar": "Stefan Zweig",
+    "yil": "2020",
+    "puan": 4,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1618688118l/1220467._SX98_.jpg"
+  },
+  {
+    "ad": "Kahvaltı Sofrası",
+    "yazar": "Defne Suman",
+    "yil": "2020",
+    "puan": 5,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1545308704l/42220845._SX98_.jpg"
+  },
+  {
+    "ad": "Bir Cihan Kafes",
+    "yazar": "İclal Aydın",
+    "yil": "2020",
+    "puan": 5,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1382270223l/18690754._SX98_.jpg"
+  },
+  {
+    "ad": "Kumral Ada Mavi Tuna",
+    "yazar": "Buket Uzuner",
+    "yil": "2020",
+    "puan": 4,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1378223692l/1532027._SX98_.jpg"
+  },
+  {
+    "ad": "Clarissa",
+    "yazar": "Stefan Zweig",
+    "yil": "2020",
+    "puan": 4,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1393252404l/1422264._SX98_.jpg"
+  },
+  {
+    "ad": "Uykusuzluk",
+    "yazar": "Henry Miller",
+    "yil": "2020",
+    "puan": 1,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1414361384l/18196302._SX98_.jpg"
+  },
+  {
+    "ad": "Fakat Müzeyyen Bu Derin Bir Tutku",
+    "yazar": "İlhami Algör",
+    "yil": "2020",
+    "puan": 1,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1643281148l/10234934._SX98_.jpg"
+  },
+  {
+    "ad": "Pinhan",
+    "yazar": "Elif Shafak",
+    "yil": "2020",
+    "puan": 3,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1232589788l/6115447._SX98_.jpg"
+  },
+  {
+    "ad": "Beyoğlu'nun En Güzel Abisi",
+    "yazar": "Ahmet Ümit",
+    "yil": "2020",
+    "puan": 5,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1381515864l/18662065._SY160_.jpg"
+  },
+  {
+    "ad": "Sabirsiz Yürek",
+    "yazar": "Stefan Zweig",
+    "yil": "2020",
+    "puan": 3,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1563792881l/49952808._SX98_SY160_.jpg"
+  },
+  {
+    "ad": "Dört Anlaşma: Toltek Bilgelik Kitabı",
+    "yazar": "Miguel Ruiz",
+    "yil": "2020",
+    "puan": 5,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1354286516l/11329522._SX98_.jpg"
+  },
+  {
+    "ad": "Sakin-Koşmayı Bıraktığın Gün Vardığın Gün",
+    "yazar": "Ege Soley",
+    "yil": "2019",
+    "puan": 4,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1567240779l/52832922._SX98_SY160_.jpg"
+  },
+  {
+    "ad": "Benyusuf",
+    "yazar": "Sezgin Kaymaz",
+    "yil": "2020",
+    "puan": 4,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1573070449l/48663177._SX98_.jpg"
+  },
+  {
+    "ad": "Seçme Masallar",
+    "yazar": "Hans Christian Andersen",
+    "yil": "2015",
+    "puan": 3,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1422803616l/24790016._SY160_.jpg"
+  },
+  {
+    "ad": "Kırık Kanatlar",
+    "yazar": "Kahlil Gibran",
+    "yil": "2019",
+    "puan": 5,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1530943336l/40731325._SY160_.jpg"
+  },
+  {
+    "ad": "Aklımda Hep Sen",
+    "yazar": "Kürşat Başar",
+    "yil": "2020",
+    "puan": 5,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1559368572l/46122872._SX98_.jpg"
+  },
+  {
+    "ad": "Sakız Sardunya",
+    "yazar": "Elif Shafak",
+    "yil": "2020",
+    "puan": 5,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1414581170l/23473299._SX98_.jpg"
+  },
+  {
+    "ad": "Aşkımız Eski Bir Roman",
+    "yazar": "Ahmet Ümit",
+    "yil": "2020",
+    "puan": 5,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1581022469l/50858488._SY160_.jpg"
+  },
+  {
+    "ad": "Acıyla Çarp Kalbim",
+    "yazar": "Amélie Nothomb",
+    "yil": "2020",
+    "puan": 5,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1576270767l/49224554._SX98_.jpg"
+  },
+  {
+    "ad": "Lyon’da Düğün",
+    "yazar": "Stefan Zweig",
+    "yil": "2020",
+    "puan": 4,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1707134325l/41572919._SY160_.jpg"
+  },
+  {
+    "ad": "Bir Ömür Nasıl Yaşanır?",
+    "yazar": "İlber Ortaylı",
+    "yil": "2019",
+    "puan": 3,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1550175308l/44011862._SX98_.jpg"
+  },
+  {
+    "ad": "Asi Kızlara Uykudan Önce Hikayeler",
+    "yazar": "Elena Favilli",
+    "yil": "2020",
+    "puan": 4,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1487782820l/34374601._SX98_.jpg"
+  },
+  {
+    "ad": "Jules",
+    "yazar": "Didier van Cauwelaert",
+    "yil": "2019",
+    "puan": 5,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1526744248l/40175424._SX98_.jpg"
+  },
+  {
+    "ad": "Beynine Format At",
+    "yazar": "M. Barış Muslu",
+    "yil": "2019",
+    "puan": 4,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1369342092l/17972905._SX98_.jpg"
+  },
+  {
+    "ad": "Müslüman Olmak Alman Kalmak",
+    "yazar": "Esra Özyürek",
+    "yil": "2015",
+    "puan": 3,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1435780385l/25833028._SX98_.jpg"
+  },
+  {
+    "ad": "Hava",
+    "yazar": "Buket Uzuner",
+    "yil": "2019",
+    "puan": 5,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1536558694l/41754743._SX98_.jpg"
+  },
+  {
+    "ad": "Amok Koşucusu",
+    "yazar": "Stefan Zweig",
+    "yil": "2019",
+    "puan": 4,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1481283595l/33297733._SX98_.jpg"
+  },
+  {
+    "ad": "Devran",
+    "yazar": "Selahattin Demirtaş",
+    "yil": "2019",
+    "puan": 5,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1554292484l/44776406._SX98_.jpg"
+  },
+  {
+    "ad": "Fildişi Karası",
+    "yazar": "Yekta Kopan",
+    "yil": "2019",
+    "puan": 4,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1512657291l/16845464._SX98_.jpg"
+  },
+  {
+    "ad": "Bir Çöküşün Öyküsü",
+    "yazar": "Stefan Zweig",
+    "yil": "2019",
+    "puan": 5,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1584623501l/34227949._SY160_.jpg"
+  },
+  {
+    "ad": "Geçmişe Yolculuk",
+    "yazar": "Stefan Zweig",
+    "yil": "2019",
+    "puan": 5,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1521579058l/38345391._SY160_.jpg"
+  },
+  {
+    "ad": "Boyalı Peçe",
+    "yazar": "W. Somerset Maugham",
+    "yil": "2019",
+    "puan": 5,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1465460966l/30335991._SY160_.jpg"
+  },
+  {
+    "ad": "Bir Mâniniz Yoksa Annemler Size Gelecek",
+    "yazar": "Ayfer Tunç",
+    "yil": "2019",
+    "puan": 3,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1404608800l/2130062._SX98_.jpg"
+  },
+  {
+    "ad": "Felâtun Bey İle Râkım Efendi",
+    "yazar": "Ahmed Midhat Efendi",
+    "yil": "2019",
+    "puan": 5,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1536947916l/7979098._SY160_.jpg"
+  },
+  {
+    "ad": "Köpek Sahibinin El Kitabı",
+    "yazar": "Bruce Fogle",
+    "yil": "2018",
+    "puan": 5,
+    "not": "",
+    "kapak": ""
+  },
+  {
+    "ad": "Dalgalar",
+    "yazar": "Virginia Woolf",
+    "yil": "2019",
+    "puan": 2,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1484306369l/33849363._SY160_.jpg"
+  },
+  {
+    "ad": "Biz Burada Devrim Yapıyoruz Sinyorita",
+    "yazar": "Ece Temelkuran",
+    "yil": "2019",
+    "puan": 3,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1305887706l/10491754._SX98_.jpg"
+  },
+  {
+    "ad": "Dance Dance Dance",
+    "yazar": "Haruki Murakami",
+    "yil": "2019",
+    "puan": 4,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1514582521l/17800._SX98_.jpg"
+  },
+  {
+    "ad": "Kalbin Temizse Hikayen Mutlu Biter (Turkish Edition)",
+    "yazar": "Hakan Mengüç",
+    "yil": "2019",
+    "puan": 2,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1546617486l/43462599._SX98_.jpg"
+  },
+  {
+    "ad": "Sıradan Bir Gün",
+    "yazar": "Yekta Kopan",
+    "yil": "2019",
+    "puan": 4,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1542012865l/42687322._SX98_.jpg"
+  },
+  {
+    "ad": "Viking Masalları",
+    "yazar": "Jennie Hall",
+    "yil": "2019",
+    "puan": 4,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1531331709l/40785150._SX98_.jpg"
+  },
+  {
+    "ad": "Ay Işığı Sokağı",
+    "yazar": "Stefan Zweig",
+    "yil": "2019",
+    "puan": 4,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1498772823l/35552942._SY160_.jpg"
+  },
+  {
+    "ad": "Sırça Köşk",
+    "yazar": "Sabahattin Ali",
+    "yil": "2019",
+    "puan": 5,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1587535322l/10305492._SX98_.jpg"
+  },
+  {
+    "ad": "Küçük Şeyler",
+    "yazar": "Samipaşazade Sezai",
+    "yil": "2019",
+    "puan": 4,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1533297398l/41034850._SY160_.jpg"
+  },
+  {
+    "ad": "Bir Kadının Yaşamından Yirmi Dört Saat",
+    "yazar": "Stefan Zweig",
+    "yil": "2019",
+    "puan": 5,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1587286059l/25382457._SY160_.jpg"
+  },
+  {
+    "ad": "Toprak",
+    "yazar": "Buket Uzuner",
+    "yil": "2019",
+    "puan": 5,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1430836018l/25484913._SX98_.jpg"
+  },
+  {
+    "ad": "Darker (Fifty Shades as Told by Christian, #2)",
+    "yazar": "E.L. James",
+    "yil": "2019",
+    "puan": 4,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1507662994l/32024902._SX98_.jpg"
+  },
+  {
+    "ad": "Mustafa Kemal",
+    "yazar": "Yılmaz Özdil",
+    "yil": "2019",
+    "puan": 5,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1538073711l/42073292._SY160_.jpg"
+  },
+  {
+    "ad": "Tanrı ile Sohbet 1: Alışılmadık Bir Diyalog",
+    "yazar": "Neale Donald Walsch",
+    "yil": "2019",
+    "puan": 0,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1346758063l/15987128._SX98_.jpg"
+  },
+  {
+    "ad": "Kanadı Kırık Melek'in Kanadına Takılanlar",
+    "yazar": "Rukiye Türeyen",
+    "yil": "2019",
+    "puan": 4,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1525327409l/40027892._SY160_.jpg"
+  },
+  {
+    "ad": "Can Dostum",
+    "yazar": "W. Bruce Cameron",
+    "yil": "2019",
+    "puan": 5,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1370681917l/18046878._SX98_.jpg"
+  },
+  {
+    "ad": "Karbon Kopya",
+    "yazar": "Yekta Kopan",
+    "yil": "2018",
+    "puan": 2,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1669878700l/13071136._SX98_.jpg"
+  },
+  {
+    "ad": "Masallarla Yola Çık",
+    "yazar": "Judith Malika Liberman",
+    "yil": "2018",
+    "puan": 5,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1508156154l/36422295._SX98_.jpg"
+  },
+  {
+    "ad": "Son Kuşlar",
+    "yazar": "Sait Faik Abasıyanık",
+    "yil": "2018",
+    "puan": 5,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1427199692l/16095498._SY160_.jpg"
+  },
+  {
+    "ad": "Şimdi Sevişme Vakti",
+    "yazar": "Sait Faik Abasıyanık",
+    "yil": "2018",
+    "puan": 3,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1455182830l/24059996._SY160_.jpg"
+  },
+  {
+    "ad": "Sıfırlamak",
+    "yazar": "Yiğit Okur",
+    "yil": "2018",
+    "puan": 3,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1608672307l/7859266._SX98_.jpg"
+  },
+  {
+    "ad": "Deli Kadın Hikâyeleri",
+    "yazar": "Mine Söğüt",
+    "yil": "2018",
+    "puan": 2,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1444335832l/12975435._SX98_.jpg"
+  },
+  {
+    "ad": "Lal Masallar",
+    "yazar": "Murathan Mungan",
+    "yil": "2018",
+    "puan": 4,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1448553699l/643015._SX98_.jpg"
+  },
+  {
+    "ad": "Dün gelir gün bittiğinde",
+    "yazar": "Nabi Resuloğlu",
+    "yil": "2018",
+    "puan": 4,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1677836211l/41144604._SX98_.jpg"
+  },
+  {
+    "ad": "Aşk Mutfağından Yalnızlık Tarifleri",
+    "yazar": "Yekta Kopan",
+    "yil": "2018",
+    "puan": 4,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1669717113l/11631019._SX98_.jpg"
+  },
+  {
+    "ad": "Büyü Dükkanı'nda İki Çınar",
+    "yazar": "Yeşim Türköz",
+    "yil": "2018",
+    "puan": 5,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1351696512l/16120524._SX98_.jpg"
+  },
+  {
+    "ad": "Sanma ki Yalnızsın",
+    "yazar": "Elif Shafak",
+    "yil": "2018",
+    "puan": 4,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1524227447l/39834567._SX98_.jpg"
+  },
+  {
+    "ad": "Kanadı Kırık Kuşlar",
+    "yazar": "Ayşe Kulin",
+    "yil": "2017",
+    "puan": 3,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1477918980l/32826786._SX98_.jpg"
+  },
+  {
+    "ad": "Akılla Bir Konuşmam Oldu",
+    "yazar": "Fazıl Say",
+    "yil": "2018",
+    "puan": 5,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1532895712l/36480741._SX98_.jpg"
+  },
+  {
+    "ad": "Su",
+    "yazar": "Buket Uzuner",
+    "yil": "2018",
+    "puan": 5,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1331380770l/13519283._SX98_.jpg"
+  },
+  {
+    "ad": "Kul",
+    "yazar": "Seray Şahiner",
+    "yil": "2018",
+    "puan": 3,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1488636981l/34461223._SX98_.jpg"
+  },
+  {
+    "ad": "Homo Deus: A History of Tomorrow",
+    "yazar": "Yuval Noah Harari",
+    "yil": "2018",
+    "puan": 4,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1468760805l/31138556._SX98_.jpg"
+  },
+  {
+    "ad": "Kısa Öykünün Büyük Ustaları",
+    "yazar": "Celâl Üster",
+    "yil": "2017",
+    "puan": 4,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1480537590l/33192055._SX98_.jpg"
+  },
+  {
+    "ad": "Bütün Kadınların Kafası Karışıktır",
+    "yazar": "Ece Temelkuran",
+    "yil": "2017",
+    "puan": 4,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1476786081l/32682174._SX98_.jpg"
+  },
+  {
+    "ad": "Anlat Trabzon",
+    "yazar": "Esin Üçüncüoğlu",
+    "yil": "2018",
+    "puan": 5,
+    "not": "",
+    "kapak": ""
+  },
+  {
+    "ad": "İvan İlyiç'in Ölümü",
+    "yazar": "Leo Tolstoy",
+    "yil": "2018",
+    "puan": 1,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1647207422l/18374852._SX98_.jpg"
+  },
+  {
+    "ad": "Princess: The True Story of Life Inside Saudi Arabia's Royal Family, Now Updated",
+    "yazar": "Jean Sasson",
+    "yil": "2017",
+    "puan": 5,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1348611115l/18616._SY160_.jpg"
+  },
+  {
+    "ad": "İyilik Güzellik",
+    "yazar": "Ece Temelkuran",
+    "yil": "2018",
+    "puan": 5,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1506684025l/36323641._SX98_.jpg"
+  },
+  {
+    "ad": "İçimizdeki Şeytan",
+    "yazar": "Sabahattin Ali",
+    "yil": "2018",
+    "puan": 4,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1418561596l/7093555._SX98_.jpg"
+  },
+  {
+    "ad": "Öykü Yazmak Hikaye Anlatmak",
+    "yazar": "Feridun Andaç",
+    "yil": "2018",
+    "puan": 3,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1429025962l/25358544._SX98_.jpg"
+  },
+  {
+    "ad": "Lüla ve Ben",
+    "yazar": "Çiğdem Kağıtçıbaşı",
+    "yil": "2017",
+    "puan": 5,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1450566321l/28247531._SX98_.jpg"
+  },
+  {
+    "ad": "Adam",
+    "yazar": "Yılmaz Özdil",
+    "yil": "2017",
+    "puan": 5,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1476276870l/32595739._SX98_.jpg"
+  },
+  {
+    "ad": "Outliers: The Story of Success",
+    "yazar": "Malcolm Gladwell",
+    "yil": "2017",
+    "puan": 5,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1364614683l/6114128._SX98_.jpg"
+  },
+  {
+    "ad": "Kalp Çarpar Beyin Böler",
+    "yazar": "Yankı Yazgan",
+    "yil": "2017",
+    "puan": 3,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1393072709l/20885160._SX98_.jpg"
+  },
+  {
+    "ad": "After You (Me Before You, #2)",
+    "yazar": "Jojo Moyes",
+    "yil": "2017",
+    "puan": 5,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1429029729l/25041504._SX98_.jpg"
+  },
+  {
+    "ad": "Sevgili",
+    "yazar": "İnci Aral",
+    "yil": "2017",
+    "puan": 3,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1497221323l/35412447._SX98_.jpg"
+  },
+  {
+    "ad": "Bir de Bizden Dinleyin: Türkiye'nin Sefireleri Anlatıyor",
+    "yazar": "Şefik Onat",
+    "yil": "2017",
+    "puan": 3,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1486982449l/33623883._SX98_.jpg"
+  },
+  {
+    "ad": "Az Şekerli",
+    "yazar": "Sait Faik Abasıyanık",
+    "yil": "2017",
+    "puan": 3,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1491844745l/13498521._SY160_.jpg"
+  },
+  {
+    "ad": "Bleachers",
+    "yazar": "John Grisham",
+    "yil": "2017",
+    "puan": 2,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1386920942l/5347._SX98_.jpg"
+  },
+  {
+    "ad": "Gölge Yiyen",
+    "yazar": "Ferdi Kibar",
+    "yil": "2017",
+    "puan": 3,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1431745580l/25546173._SX98_.jpg"
+  },
+  {
+    "ad": "Loving What Is: Four Questions That Can Change Your Life",
+    "yazar": "Byron Katie",
+    "yil": "2017",
+    "puan": 3,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1388258105l/9762._SX98_.jpg"
+  },
+  {
+    "ad": "Hepsi 6dk",
+    "yazar": "Yeşim Cimcoz",
+    "yil": "2017",
+    "puan": 4,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1495716038l/34866852._SX98_.jpg"
+  },
+  {
+    "ad": "Handan",
+    "yazar": "Ayşe Kulin",
+    "yil": "2017",
+    "puan": 4,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1414186575l/23444441._SX98_.jpg"
+  },
+  {
+    "ad": "Kardelenler: Çağdaş Türkiye'nin Çağdaş Kızları",
+    "yazar": "Ayşe Kulin",
+    "yil": "2017",
+    "puan": 5,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1320963033l/13039152._SX98_.jpg"
+  },
+  {
+    "ad": "Hüzün",
+    "yazar": "Ayşe Kulin",
+    "yil": "2017",
+    "puan": 4,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1331980701l/10465271._SX98_.jpg"
+  },
+  {
+    "ad": "Umut: Hayat Akan Bir Sudur",
+    "yazar": "Ayşe Kulin",
+    "yil": "2017",
+    "puan": 4,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1354694825l/6553911._SX98_.jpg"
+  },
+  {
+    "ad": "Gizli Anların Yolcusu",
+    "yazar": "Ayşe Kulin",
+    "yil": "2017",
+    "puan": 4,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1322242185l/13107994._SX98_.jpg"
+  },
+  {
+    "ad": "Türkan",
+    "yazar": "Ayşe Kulin",
+    "yil": "2017",
+    "puan": 5,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1379692737l/7489082._SX98_.jpg"
+  },
+  {
+    "ad": "Hayat",
+    "yazar": "Ayşe Kulin",
+    "yil": "2017",
+    "puan": 4,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1381242926l/10202570._SX98_.jpg"
+  },
+  {
+    "ad": "Geniş Zamanlar",
+    "yazar": "Ayşe Kulin",
+    "yil": "2017",
+    "puan": 3,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1237929257l/6357029._SX98_.jpg"
+  },
+  {
+    "ad": "Bora'nın Kitabı",
+    "yazar": "Ayşe Kulin",
+    "yil": "2017",
+    "puan": 4,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1349698171l/16074708._SX98_.jpg"
+  },
+  {
+    "ad": "Bütün Hikayeleri",
+    "yazar": "Fikret Ürgüp",
+    "yil": "2017",
+    "puan": 1,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1432976522l/25630103._SX98_.jpg"
+  },
+  {
+    "ad": "Sakın Oraya Gitme",
+    "yazar": "Yekta Kopan",
+    "yil": "2017",
+    "puan": 4,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1477337700l/32736835._SX98_.jpg"
+  },
+  {
+    "ad": "Büyüleyici Bağırsak",
+    "yazar": "Giulia Enders",
+    "yil": "2017",
+    "puan": 3,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1465929471l/30621290._SX98_.jpg"
+  },
+  {
+    "ad": "Değirmen",
+    "yazar": "Sabahattin Ali",
+    "yil": "2017",
+    "puan": 4,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1319483224l/7961910._SX98_.jpg"
+  },
+  {
+    "ad": "Savaş Sanatı",
+    "yazar": "Sun Tzu",
+    "yil": "2016",
+    "puan": 3,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1603010798l/25402780._SY160_.jpg"
+  },
+  {
+    "ad": "Zaman Hızla Yaşlanıyor",
+    "yazar": "Antonio Tabucchi",
+    "yil": "2016",
+    "puan": 2,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1343996540l/15783994._SX98_.jpg"
+  },
+  {
+    "ad": "Müptezeller",
+    "yazar": "Emrah Serbes",
+    "yil": "2016",
+    "puan": 4,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1475767171l/32485688._SX98_.jpg"
+  },
+  {
+    "ad": "Mucizevi Mandarin",
+    "yazar": "Aslı Erdoğan",
+    "yil": "2016",
+    "puan": 3,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1374767825l/4615213._SX98_.jpg"
+  },
+  {
+    "ad": "Kırmızı Saçlı Kadın",
+    "yazar": "Orhan Pamuk",
+    "yil": "2016",
+    "puan": 3,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1453811410l/28718879._SX98_.jpg"
+  },
+  {
+    "ad": "Sade",
+    "yazar": "Begüm Başoğlu",
+    "yil": "2016",
+    "puan": 2,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1465739093l/28450213._SX98_.jpg"
+  },
+  {
+    "ad": "Sapiens: A Brief History of Humankind",
+    "yazar": "Yuval Noah Harari",
+    "yil": "2016",
+    "puan": 4,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1703329310l/23692271._SX98_.jpg"
+  },
+  {
+    "ad": "Mızraklar, Mızraklar, Tüfekler, Tüfekler",
+    "yazar": "José Saramago",
+    "yil": "2016",
+    "puan": 0,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1454705914l/28522470._SX98_.jpg"
+  },
+  {
+    "ad": "Masal Masal İçinde",
+    "yazar": "Ahmet Ümit",
+    "yil": "2016",
+    "puan": 5,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1290162351l/7762166._SY160_.jpg"
+  },
+  {
+    "ad": "Kuyucaklı Yusuf",
+    "yazar": "Sabahattin Ali",
+    "yil": "2016",
+    "puan": 5,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1575585708l/1844941._SX98_.jpg"
+  },
+  {
+    "ad": "Havva'nın Üç Kızı",
+    "yazar": "Elif Shafak",
+    "yil": "2016",
+    "puan": 4,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1465982664l/30625581._SX98_.jpg"
+  },
+  {
+    "ad": "Aile Çay Bahçesi",
+    "yazar": "Yekta Kopan",
+    "yil": "2016",
+    "puan": 5,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1381055030l/18630207._SX98_.jpg"
+  },
+  {
+    "ad": "Kumpanya",
+    "yazar": "Sait Faik Abasıyanık",
+    "yil": "2016",
+    "puan": 5,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1279122746l/8450248._SX98_.jpg"
+  },
+  {
+    "ad": "Gerçek Hesap Bu!",
+    "yazar": "Nejat İşler",
+    "yil": "2016",
+    "puan": 4,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1464099601l/30226045._SX98_.jpg"
+  },
+  {
+    "ad": "Kafka on the Shore",
+    "yazar": "Haruki Murakami",
+    "yil": "2016",
+    "puan": 5,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1429638085l/4929._SX98_.jpg"
+  },
+  {
+    "ad": "A Thousand Splendid Suns",
+    "yazar": "Khaled Hosseini",
+    "yil": "2016",
+    "puan": 5,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1655336738l/128029._SX98_.jpg"
+  },
+  {
+    "ad": "Sen Benim Hayatımsın",
+    "yazar": "Ferzan Özpetek",
+    "yil": "2016",
+    "puan": 4,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1447332144l/27810124._SX98_.jpg"
+  },
+  {
+    "ad": "On İki Gezici Öykü",
+    "yazar": "Gabriel García Márquez",
+    "yil": "2016",
+    "puan": 4,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1280911336l/8715466._SX98_.jpg"
+  },
+  {
+    "ad": "Deniz Feneri",
+    "yazar": "Virginia Woolf",
+    "yil": "2016",
+    "puan": 3,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1433254416l/25649548._SY160_.jpg"
+  },
+  {
+    "ad": "Anlatının Gücü",
+    "yazar": "Robert Fulford",
+    "yil": "2015",
+    "puan": 2,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1415718591l/23529607._SX98_.jpg"
+  },
+  {
+    "ad": "Dublinliler",
+    "yazar": "James Joyce",
+    "yil": "2016",
+    "puan": 4,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1501447559l/16093785._SX98_.jpg"
+  },
+  {
+    "ad": "Memleket Hikâyeleri",
+    "yazar": "Refik Halid Karay",
+    "yil": "2016",
+    "puan": 5,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1404732784l/8530017._SX98_.jpg"
+  },
+  {
+    "ad": "Yol Işıkları",
+    "yazar": "Nalan Barbarosoğlu",
+    "yil": "2016",
+    "puan": 4,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1677817922l/29603082._SX98_.jpg"
+  },
+  {
+    "ad": "Hikâyeler",
+    "yazar": "Ahmet Hamdi Tanpınar",
+    "yil": "2015",
+    "puan": 4,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1492718314l/25716379._SX98_.jpg"
+  },
+  {
+    "ad": "South of the Border, West of the Sun",
+    "yazar": "Haruki Murakami",
+    "yil": "2016",
+    "puan": 5,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1443685506l/17799._SX98_.jpg"
+  },
+  {
+    "ad": "Yazmak",
+    "yazar": "Marguerite Duras",
+    "yil": "2016",
+    "puan": 2,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1426634398l/25164450._SX98_.jpg"
+  },
+  {
+    "ad": "Grey (Fifty Shades as Told by Christian, #1)",
+    "yazar": "E.L. James",
+    "yil": "2016",
+    "puan": 5,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1433182986l/25644601._SX98_.jpg"
+  },
+  {
+    "ad": "Hayal Kahramanları",
+    "yazar": "Sunay Akın",
+    "yil": "2016",
+    "puan": 3,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1446194011l/27392584._SX98_.jpg"
+  },
+  {
+    "ad": "Memleketi Ben Kurtaracağım!",
+    "yazar": "Gülse Birsel",
+    "yil": "2016",
+    "puan": 4,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1446638720l/27425420._SX98_.jpg"
+  },
+  {
+    "ad": "If Life Is a Game, These Are the Rules: Ten Rules for Being Human as Introduced in Chicken Soup for the Soul",
+    "yazar": "Cherie Carter-Scott",
+    "yil": "2016",
+    "puan": 2,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1388338630l/389101._SX98_.jpg"
+  },
+  {
+    "ad": "Biz O Zamanlar baaçede oynardık",
+    "yazar": "Ayçe Ayyıldız",
+    "yil": "2016",
+    "puan": 4,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1454019109l/28795591._SY160_.jpg"
+  },
+  {
+    "ad": "Kadın",
+    "yazar": "Yılmaz Özdil",
+    "yil": "2016",
+    "puan": 5,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1445430739l/27248697._SX98_.jpg"
+  },
+  {
+    "ad": "Çavdar Tarlasında Çocuklar",
+    "yazar": "J.D. Salinger",
+    "yil": "2016",
+    "puan": 3,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1438254730l/7990630._SX98_.jpg"
+  },
+  {
+    "ad": "Yaşlı Adam ve Deniz",
+    "yazar": "Ernest Hemingway",
+    "yil": "2016",
+    "puan": 5,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1575582888l/13318848._SX98_.jpg"
+  },
+  {
+    "ad": "Selimiye Bir Yokuştur",
+    "yazar": "Oktay Akbal",
+    "yil": "2015",
+    "puan": 5,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1475420227l/27232433._SX98_.jpg"
+  },
+  {
+    "ad": "Erkeklerin Hikâyeleri",
+    "yazar": "Murathan Mungan",
+    "yil": "2015",
+    "puan": 4,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1379944882l/9904184._SX98_.jpg"
+  },
+  {
+    "ad": "Kadınlar Arasında",
+    "yazar": "Murathan Mungan",
+    "yil": "2015",
+    "puan": 4,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1393048946l/20884265._SX98_.jpg"
+  },
+  {
+    "ad": "Semaver",
+    "yazar": "Sait Faik Abasıyanık",
+    "yil": "2015",
+    "puan": 5,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1401393454l/22371990._SY160_.jpg"
+  },
+  {
+    "ad": "Anadolu Efsaneleri",
+    "yazar": "Halikarnas Balıkçısı",
+    "yil": "2015",
+    "puan": 2,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1469124559l/339728._SX98_.jpg"
+  },
+  {
+    "ad": "Me Before You (Me Before You, #1)",
+    "yazar": "Jojo Moyes",
+    "yil": "2015",
+    "puan": 5,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1562775674l/12649718._SX98_.jpg"
+  },
+  {
+    "ad": "Sıfır Sayı",
+    "yazar": "Umberto Eco",
+    "yil": "2015",
+    "puan": 2,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1444049860l/26865842._SX98_.jpg"
+  },
+  {
+    "ad": "Tutunamayanlar",
+    "yazar": "Oğuz Atay",
+    "yil": "2016",
+    "puan": 4,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1310152220l/758901._SX98_.jpg"
+  },
+  {
+    "ad": "Yazı Odasında Yolculuklar",
+    "yazar": "Paul Auster",
+    "yil": "2015",
+    "puan": 4,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1518280940l/23579241._SX98_.jpg"
+  },
+  {
+    "ad": "Püf Noktası: İlk Öyküleri ve Yazıları",
+    "yazar": "Nezihe Meriç",
+    "yil": "2015",
+    "puan": 3,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1491733209l/27852909._SX98_.jpg"
+  },
+  {
+    "ad": "Sarı Kahkaha",
+    "yazar": "Murat Özyaşar",
+    "yil": "2015",
+    "puan": 4,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1424763723l/25007603._SX98_.jpg"
+  },
+  {
+    "ad": "Ayasofya Konuştu",
+    "yazar": "Füsun Çetinel",
+    "yil": "2015",
+    "puan": 4,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1434437166l/25735954._SX98_.jpg"
+  },
+  {
+    "ad": "Yazma Büyüsü",
+    "yazar": "İnci Aral",
+    "yil": "2015",
+    "puan": 4,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1360252967l/13389386._SX98_.jpg"
+  },
+  {
+    "ad": "Jilet Sinan",
+    "yazar": "Gönül Kıvılcım",
+    "yil": "2015",
+    "puan": 4,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1436892264l/25909242._SX98_.jpg"
+  },
+  {
+    "ad": "Yaratma Cesareti",
+    "yazar": "Rollo May",
+    "yil": "2015",
+    "puan": 2,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1461441745l/10663600._SX98_.jpg"
+  },
+  {
+    "ad": "Babamın Bavulu",
+    "yazar": "Orhan Pamuk",
+    "yil": "2015",
+    "puan": 5,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1385802109l/8265595._SY160_.jpg"
+  },
+  {
+    "ad": "Dönüşüm",
+    "yazar": "Franz Kafka",
+    "yil": "2015",
+    "puan": 4,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1707134633l/23155080._SX98_.jpg"
+  },
+  {
+    "ad": "Yanık Saraylar",
+    "yazar": "Sevim Burak",
+    "yil": "2015",
+    "puan": 4,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1389297657l/6224733._SX98_.jpg"
+  },
+  {
+    "ad": "Kürk Mantolu Madonna",
+    "yazar": "Sabahattin Ali",
+    "yil": "2015",
+    "puan": 5,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1362477552l/220826._SY160_.jpg"
+  },
+  {
+    "ad": "On Writing",
+    "yazar": "Ernest Hemingway",
+    "yil": "2015",
+    "puan": 5,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1731080929l/42683._SX98_.jpg"
+  },
+  {
+    "ad": "Babaya Mektup",
+    "yazar": "Franz Kafka",
+    "yil": "2015",
+    "puan": 4,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1319217927l/12931561._SX98_.jpg"
+  },
+  {
+    "ad": "Yağmur Akşamları",
+    "yazar": "Selim İleri",
+    "yil": "2015",
+    "puan": 4,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1351619114l/16119091._SX98_.jpg"
+  },
+  {
+    "ad": "Kafamda Bir Tuhaflık",
+    "yazar": "Orhan Pamuk",
+    "yil": "2015",
+    "puan": 5,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1418300221l/23642646._SX98_.jpg"
+  },
+  {
+    "ad": "Korkuyu Beklerken",
+    "yazar": "Oğuz Atay",
+    "yil": "2015",
+    "puan": 4,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1351085243l/238251._SX98_.jpg"
+  },
+  {
+    "ad": "Dokuz Öykü",
+    "yazar": "J.D. Salinger",
+    "yil": "2015",
+    "puan": 4,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1280316763l/8668854._SX98_.jpg"
+  },
+  {
+    "ad": "Küçük Prens",
+    "yazar": "Antoine de Saint-Exupéry",
+    "yil": "2015",
+    "puan": 4,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1442500480l/11451892._SY160_.jpg"
+  },
+  {
+    "ad": "The Hundred-Year-Old Man Who Climbed Out of the Window and Disappeared (Hundred-Year-Old Man, #1)",
+    "yazar": "Jonas Jonasson",
+    "yil": "2015",
+    "puan": 5,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1334848488l/13486632._SX98_.jpg"
+  },
+  {
+    "ad": "Albayım Beni Nezahat ile Evlendir",
+    "yazar": "İlhami Algör",
+    "yil": "2015",
+    "puan": 2,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1421772815l/24597568._SX98_.jpg"
+  },
+  {
+    "ad": "Baykuş Virane Sever",
+    "yazar": "Faruk Duman",
+    "yil": "2015",
+    "puan": 3,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1607895175l/17312307._SX98_.jpg"
+  },
+  {
+    "ad": "Şerul'da Beklemek",
+    "yazar": "Hasan Özkılıç",
+    "yil": "2015",
+    "puan": 5,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1402920729l/22438797._SX98_.jpg"
+  },
+  {
+    "ad": "Lütfen Sessiz Olur Musun, Lütfen?",
+    "yazar": "Raymond Carver",
+    "yil": "2015",
+    "puan": 4,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1430430019l/16121761._SX98_.jpg"
+  },
+  {
+    "ad": "Devir",
+    "yazar": "Ece Temelkuran",
+    "yil": "2015",
+    "puan": 5,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1422143521l/24678233._SX98_.jpg"
+  },
+  {
+    "ad": "Masal Terapi",
+    "yazar": "Judith Malika Liberman",
+    "yil": "2015",
+    "puan": 3,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1432404309l/25186886._SX98_.jpg"
+  },
+  {
+    "ad": "Ayrılık Sevdaya Dahil",
+    "yazar": "Attilâ İlhan",
+    "yil": "2015",
+    "puan": 3,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1349003805l/271073._SX98_.jpg"
+  },
+  {
+    "ad": "Alemdağ'da Var Bir Yılan",
+    "yazar": "Sait Faik Abasıyanık",
+    "yil": "2015",
+    "puan": 5,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1250973436l/6740455._SX98_.jpg"
+  },
+  {
+    "ad": "Rüya Bekleyen Adam",
+    "yazar": "Filiz Özdem",
+    "yil": "2015",
+    "puan": 4,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1405279332l/22717565._SX98_.jpg"
+  },
+  {
+    "ad": "İki Şiirin Arasında",
+    "yazar": "Yekta Kopan",
+    "yil": "2015",
+    "puan": 4,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1411927086l/23279179._SX98_.jpg"
+  },
+  {
+    "ad": "Cold Mountain",
+    "yazar": "Charles Frazier",
+    "yil": "2013",
+    "puan": 4,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1442416348l/10920._SX98_.jpg"
+  },
+  {
+    "ad": "Bir Dinozorun Anıları",
+    "yazar": "Mîna Urgan",
+    "yil": "2015",
+    "puan": 4,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1438157938l/2006419._SX98_.jpg"
+  },
+  {
+    "ad": "Kediler Güzel Uyanır",
+    "yazar": "Yekta Kopan",
+    "yil": "2015",
+    "puan": 4,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1320531989l/13013757._SX98_.jpg"
+  },
+  {
+    "ad": "Bir de Baktım Yoksun",
+    "yazar": "Yekta Kopan",
+    "yil": "2015",
+    "puan": 4,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1603012207l/6997639._SX98_.jpg"
+  },
+  {
+    "ad": "İmkânsızın Şarkısı",
+    "yazar": "Haruki Murakami",
+    "yil": "2014",
+    "puan": 5,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1360034035l/12645888._SX98_.jpg"
+  },
+  {
+    "ad": "The Pilgrimage",
+    "yazar": "Paulo Coelho",
+    "yil": "2014",
+    "puan": 2,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1307909268l/4004._SX98_.jpg"
+  },
+  {
+    "ad": "İstanbul Kırmızısı",
+    "yazar": "Ferzan Özpetek",
+    "yil": "2014",
+    "puan": 5,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1447332415l/20738453._SX98_.jpg"
+  },
+  {
+    "ad": "Long Walk to Freedom",
+    "yazar": "Nelson Mandela",
+    "yil": "2014",
+    "puan": 5,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1327997342l/318431._SX98_.jpg"
+  },
+  {
+    "ad": "Okur Postası",
+    "yazar": "Nalan Barbarosoğlu",
+    "yil": "2014",
+    "puan": 0,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1481193295l/23765933._SX98_.jpg"
+  },
+  {
+    "ad": "20. yüzyılın en büyük lideri Atatürk (1923'ten 1938'e)",
+    "yazar": "İlker Başbuğ",
+    "yil": "2014",
+    "puan": 4,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1466848103l/22667031._SX98_.jpg"
+  },
+  {
+    "ad": "Taming Your Gremlin: A Surprisingly Simple Method for Getting Out of Your Own Way",
+    "yazar": "Rick Carson",
+    "yil": "2014",
+    "puan": 5,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1413131788l/339574._SX98_.jpg"
+  },
+  {
+    "ad": "Co-Active Coaching: Changing Business, Transforming Lives",
+    "yazar": "Laura Whitworth",
+    "yil": "2014",
+    "puan": 5,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1391615096l/12514436._SX98_.jpg"
+  },
+  {
+    "ad": "Havada Bulut",
+    "yazar": "Sait Faik Abasıyanık",
+    "yil": "2014",
+    "puan": 4,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1466009798l/12328557._SX98_.jpg"
+  },
+  {
+    "ad": "Muz Sesleri",
+    "yazar": "Ece Temelkuran",
+    "yil": "2014",
+    "puan": 4,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1384369354l/18803236._SX98_.jpg"
+  },
+  {
+    "ad": "Mahalle Kahvesi",
+    "yazar": "Sait Faik Abasıyanık",
+    "yil": "2014",
+    "puan": 5,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1442432573l/16095496._SY160_.jpg"
+  },
+  {
+    "ad": "The Round House",
+    "yazar": "Louise Erdrich",
+    "yil": "2014",
+    "puan": 4,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1352999408l/13602426._SX98_.jpg"
+  },
+  {
+    "ad": "Mahalle Kahvesi",
+    "yazar": "Sait Faik Abasıyanık",
+    "yil": "2014",
+    "puan": 5,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1542308769l/1314526._SX98_.jpg"
+  },
+  {
+    "ad": "Committed: A Skeptic Makes Peace with Marriage",
+    "yazar": "Elizabeth Gilbert",
+    "yil": "2014",
+    "puan": 3,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1472258183l/6728738._SX98_.jpg"
+  },
+  {
+    "ad": "Yaz",
+    "yazar": "Kürşat Başar",
+    "yil": "2014",
+    "puan": 4,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1402745610l/22468045._SX98_.jpg"
+  },
+  {
+    "ad": "A Writer's Diary",
+    "yazar": "Virginia Woolf",
+    "yil": "2014",
+    "puan": 4,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1639099172l/14948._SX98_.jpg"
+  },
+  {
+    "ad": "Biri Beni Dinliyor",
+    "yazar": "Dilek Yıldırım Akgün",
+    "yil": "2014",
+    "puan": 5,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1677806046l/16309620._SX98_.jpg"
+  },
+  {
+    "ad": "Angels (Walsh Family, #3)",
+    "yazar": "Marian Keyes",
+    "yil": "2014",
+    "puan": 4,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1407711412l/82747._SX98_.jpg"
+  },
+  {
+    "ad": "Seçme Hikâyeler",
+    "yazar": "Sait Faik Abasıyanık",
+    "yil": "2014",
+    "puan": 4,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1442432808l/16095499._SY160_.jpg"
+  },
+  {
+    "ad": "Norwegian Wood",
+    "yazar": "Haruki Murakami",
+    "yil": "2014",
+    "puan": 4,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1713542603l/11297._SX98_.jpg"
+  },
+  {
+    "ad": "New York Seyir Defteri",
+    "yazar": "Buket Uzuner",
+    "yil": "2014",
+    "puan": 3,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1348392205l/4791440._SX98_.jpg"
+  },
+  {
+    "ad": "Winter Journal",
+    "yazar": "Paul Auster",
+    "yil": "2014",
+    "puan": 4,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1340834290l/13516651._SX98_.jpg"
+  },
+  {
+    "ad": "İki Yeşil Susamuru",
+    "yazar": "Buket Uzuner",
+    "yil": "2014",
+    "puan": 4,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1216560976l/1532022._SX98_.jpg"
+  },
+  {
+    "ad": "Ustam ve Ben",
+    "yazar": "Elif Shafak",
+    "yil": "2014",
+    "puan": 4,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1386274177l/19183798._SX98_.jpg"
+  },
+  {
+    "ad": "Whoever Tells the Best Story Wins: How to Use Your Own Stories to Communicate With Power and Impact",
+    "yazar": "Annette Simmons",
+    "yil": "2014",
+    "puan": 5,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1631182702l/1249059._SX98_.jpg"
+  },
+  {
+    "ad": "The Story Factor: Inspiration, Influence, and Persuasion through the Art of Storytelling",
+    "yazar": "Annette Simmons",
+    "yil": "2014",
+    "puan": 5,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1376476155l/575386._SX98_.jpg"
+  },
+  {
+    "ad": "Cinderella and the Coach - the Power of Storytelling for Coaching Success!",
+    "yazar": "Lisa  Bloom",
+    "yil": "2014",
+    "puan": 5,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1347673749l/13359752._SX98_.jpg"
+  },
+  {
+    "ad": "Fifty Shades Freed (Fifty Shades, #3)",
+    "yazar": "E.L. James",
+    "yil": "2014",
+    "puan": 5,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1336418837l/13536860._SX98_.jpg"
+  },
+  {
+    "ad": "Fifty Shades Darker (Fifty Shades, #2)",
+    "yazar": "E.L. James",
+    "yil": "2014",
+    "puan": 5,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1631260114l/11857408._SX98_.jpg"
+  },
+  {
+    "ad": "Siddhartha",
+    "yazar": "Hermann Hesse",
+    "yil": "2014",
+    "puan": 4,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1629378189l/52036._SY160_.jpg"
+  },
+  {
+    "ad": "The Girl Who Kicked the Hornet’s Nest (Millennium, #3)",
+    "yazar": "Stieg Larsson",
+    "yil": "2014",
+    "puan": 5,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1327708260l/6892870._SX98_.jpg"
+  },
+  {
+    "ad": "The Girl Who Played with Fire (Millennium #2)",
+    "yazar": "Stieg Larsson",
+    "yil": "2014",
+    "puan": 5,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1351778881l/5060378._SX98_.jpg"
+  },
+  {
+    "ad": "The Other Side of the Story",
+    "yazar": "Marian Keyes",
+    "yil": "2014",
+    "puan": 3,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1407107814l/9302._SX98_.jpg"
+  },
+  {
+    "ad": "Sushi for Beginners",
+    "yazar": "Marian Keyes",
+    "yil": "2014",
+    "puan": 4,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1407709390l/82748._SX98_.jpg"
+  },
+  {
+    "ad": "The Brightest Star in the Sky",
+    "yazar": "Marian Keyes",
+    "yil": "2014",
+    "puan": 4,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1268685823l/6539596._SX98_.jpg"
+  },
+  {
+    "ad": "Watermelon (Walsh Family, #1)",
+    "yazar": "Marian Keyes",
+    "yil": "2014",
+    "puan": 4,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1345767584l/9300._SX98_.jpg"
+  },
+  {
+    "ad": "Ne Anlatayım Ben Sana!",
+    "yazar": "Ece Temelkuran",
+    "yil": "2014",
+    "puan": 4,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1356490860l/6888780._SX98_.jpg"
+  },
+  {
+    "ad": "Kayda Geçsin",
+    "yazar": "Ece Temelkuran",
+    "yil": "2014",
+    "puan": 4,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1329906533l/13495541._SX98_.jpg"
+  },
+  {
+    "ad": "İkinci Yarısı",
+    "yazar": "Ece Temelkuran",
+    "yil": "2014",
+    "puan": 4,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1305885161l/11413172._SX98_.jpg"
+  },
+  {
+    "ad": "Ağrı'nın Derinliği",
+    "yazar": "Ece Temelkuran",
+    "yil": "2014",
+    "puan": 5,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1379759584l/5167161._SX98_.jpg"
+  },
+  {
+    "ad": "Düğümlere Üfleyen Kadınlar",
+    "yazar": "Ece Temelkuran",
+    "yil": "2014",
+    "puan": 5,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1360341879l/17341373._SX98_.jpg"
+  },
+  {
+    "ad": "Black Milk: On Writing, Motherhood, and the Harem Within",
+    "yazar": "Elif Shafak",
+    "yil": "2014",
+    "puan": 2,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1311281806l/9923549._SX98_.jpg"
+  },
+  {
+    "ad": "Firarperest (Turkish Edition)",
+    "yazar": "Elif Shafak",
+    "yil": "2014",
+    "puan": 3,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1308980904l/9782817._SX98_.jpg"
+  },
+  {
+    "ad": "Cevdet Bey ve Oğulları",
+    "yazar": "Orhan Pamuk",
+    "yil": "2014",
+    "puan": 4,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1381699354l/1933650._SX98_.jpg"
+  },
+  {
+    "ad": "Sessiz Ev",
+    "yazar": "Orhan Pamuk",
+    "yil": "2014",
+    "puan": 4,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1286895072l/270872._SX98_.jpg"
+  },
+  {
+    "ad": "The New Life",
+    "yazar": "Orhan Pamuk",
+    "yil": "2014",
+    "puan": 4,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1329921999l/11694._SX98_.jpg"
+  },
+  {
+    "ad": "The White Castle",
+    "yazar": "Orhan Pamuk",
+    "yil": "2014",
+    "puan": 3,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1328521781l/11693._SX98_.jpg"
+  },
+  {
+    "ad": "Istanbul: Memories and the City",
+    "yazar": "Orhan Pamuk",
+    "yil": "2014",
+    "puan": 4,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1742528874l/11690._SX98_.jpg"
+  },
+  {
+    "ad": "The Museum of Innocence",
+    "yazar": "Orhan Pamuk",
+    "yil": "2014",
+    "puan": 4,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1348583229l/6282753._SX98_.jpg"
+  },
+  {
+    "ad": "Snow",
+    "yazar": "Orhan Pamuk",
+    "yil": "2014",
+    "puan": 4,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1742528820l/11691._SX98_.jpg"
+  },
+  {
+    "ad": "My Name Is Red",
+    "yazar": "Orhan Pamuk",
+    "yil": "2014",
+    "puan": 4,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1547450869l/2517._SX98_.jpg"
+  },
+  {
+    "ad": "Harry Potter and the Half-Blood Prince (Harry Potter, #6)",
+    "yazar": "J.K. Rowling",
+    "yil": "2014",
+    "puan": 5,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1587697303l/1._SX98_.jpg"
+  },
+  {
+    "ad": "Harry Potter and the Chamber of Secrets (Harry Potter, #2)",
+    "yazar": "J.K. Rowling",
+    "yil": "2014",
+    "puan": 5,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1474169725l/15881._SX98_.jpg"
+  },
+  {
+    "ad": "Harry Potter and the Goblet of Fire (Harry Potter, #4)",
+    "yazar": "J.K. Rowling",
+    "yil": "2014",
+    "puan": 5,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1554006152l/6._SX98_.jpg"
+  },
+  {
+    "ad": "Harry Potter and the Prisoner of Azkaban (Harry Potter, #3)",
+    "yazar": "J.K. Rowling",
+    "yil": "2014",
+    "puan": 5,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1630547330l/5._SX98_.jpg"
+  },
+  {
+    "ad": "London Transports",
+    "yazar": "Maeve Binchy",
+    "yil": "2014",
+    "puan": 4,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1388783842l/34297._SY160_.jpg"
+  },
+  {
+    "ad": "This Year It Will Be Different",
+    "yazar": "Maeve Binchy",
+    "yil": "2014",
+    "puan": 4,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1388557445l/34305._SY160_.jpg"
+  },
+  {
+    "ad": "Echoes",
+    "yazar": "Maeve Binchy",
+    "yil": "2014",
+    "puan": 3,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1386920834l/34301._SY160_.jpg"
+  },
+  {
+    "ad": "The Lilac Bus",
+    "yazar": "Maeve Binchy",
+    "yil": "2014",
+    "puan": 4,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1320391966l/41952._SX98_.jpg"
+  },
+  {
+    "ad": "Light a Penny Candle",
+    "yazar": "Maeve Binchy",
+    "yil": "2014",
+    "puan": 4,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1320391955l/41962._SX98_.jpg"
+  },
+  {
+    "ad": "The Copper Beech",
+    "yazar": "Maeve Binchy",
+    "yil": "2014",
+    "puan": 4,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1355114025l/34312._SX98_.jpg"
+  },
+  {
+    "ad": "Quentins",
+    "yazar": "Maeve Binchy",
+    "yil": "2014",
+    "puan": 4,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1169806796l/41950._SY160_.jpg"
+  },
+  {
+    "ad": "Evening Class",
+    "yazar": "Maeve Binchy",
+    "yil": "2014",
+    "puan": 4,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1368673760l/41967._SX98_.jpg"
+  },
+  {
+    "ad": "Circle of Friends",
+    "yazar": "Maeve Binchy",
+    "yil": "2014",
+    "puan": 5,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1718052667l/41977._SX98_.jpg"
+  },
+  {
+    "ad": "Tara Road",
+    "yazar": "Maeve Binchy",
+    "yil": "2014",
+    "puan": 4,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1403194637l/5196._SY160_.jpg"
+  },
+  {
+    "ad": "Maeve Binchy: Firefly Summer / Circle of Friends (Omnibus 1)",
+    "yazar": "Maeve Binchy",
+    "yil": "2014",
+    "puan": 4,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1387664662l/1357208._SX98_.jpg"
+  },
+  {
+    "ad": "The King of Torts",
+    "yazar": "John Grisham",
+    "yil": "2014",
+    "puan": 4,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1388260347l/5356._SX98_.jpg"
+  },
+  {
+    "ad": "The Last Juror",
+    "yazar": "John Grisham",
+    "yil": "2014",
+    "puan": 4,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1386924294l/5346._SX98_.jpg"
+  },
+  {
+    "ad": "The Brethren",
+    "yazar": "John Grisham",
+    "yil": "2014",
+    "puan": 3,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1386923281l/5354._SX98_.jpg"
+  },
+  {
+    "ad": "The Street Lawyer",
+    "yazar": "John Grisham",
+    "yil": "2014",
+    "puan": 5,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1386924300l/5351._SX98_.jpg"
+  },
+  {
+    "ad": "The Testament",
+    "yazar": "John Grisham",
+    "yil": "2014",
+    "puan": 4,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1403174228l/5348._SY160_.jpg"
+  },
+  {
+    "ad": "The Rainmaker",
+    "yazar": "John Grisham",
+    "yil": "2014",
+    "puan": 3,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1388265477l/5349._SX98_.jpg"
+  },
+  {
+    "ad": "The Runaway Jury",
+    "yazar": "John Grisham",
+    "yil": "2014",
+    "puan": 4,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1388444668l/24192._SX98_.jpg"
+  },
+  {
+    "ad": "The Client",
+    "yazar": "John Grisham",
+    "yil": "2014",
+    "puan": 4,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1554192326l/5359._SX98_.jpg"
+  },
+  {
+    "ad": "The Pelican Brief",
+    "yazar": "John Grisham",
+    "yil": "2014",
+    "puan": 5,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1389486877l/32499._SX98_.jpg"
+  },
+  {
+    "ad": "The Firm (Penguin Readers, Level 5)",
+    "yazar": "Robin Waterfield",
+    "yil": "2014",
+    "puan": 4,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1418465200l/5358._SX98_.jpg"
+  },
+  {
+    "ad": "The Fountainhead",
+    "yazar": "Ayn Rand",
+    "yil": "2014",
+    "puan": 5,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1491163636l/2122._SY160_.jpg"
+  },
+  {
+    "ad": "Atlas Shrugged",
+    "yazar": "Ayn Rand",
+    "yil": "2014",
+    "puan": 4,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1405868167l/662._SX98_.jpg"
+  },
+  {
+    "ad": "The Kite Runner",
+    "yazar": "Khaled Hosseini",
+    "yil": "2013",
+    "puan": 5,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1579036753l/77203._SY160_.jpg"
+  },
+  {
+    "ad": "Way of the Peaceful Warrior: A Book That Changes Lives",
+    "yazar": "Dan Millman",
+    "yil": "2013",
+    "puan": 4,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1423514049l/2255._SX98_.jpg"
+  },
+  {
+    "ad": "The Essential Rumi",
+    "yazar": "Jalal ad-Din Muhammad ar-Rumi",
+    "yil": "2013",
+    "puan": 5,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1391414844l/304079._SX98_.jpg"
+  },
+  {
+    "ad": "The God of Small Things",
+    "yazar": "Arundhati Roy",
+    "yil": "2013",
+    "puan": 4,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1767305433l/9777._SX98_.jpg"
+  },
+  {
+    "ad": "Life of Pi",
+    "yazar": "Yann Martel",
+    "yil": "2013",
+    "puan": 5,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1631251689l/4214._SX98_.jpg"
+  },
+  {
+    "ad": "Jonathan Livingston Seagull",
+    "yazar": "Richard Bach",
+    "yil": "2013",
+    "puan": 5,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1432222358l/71728._SX98_.jpg"
+  },
+  {
+    "ad": "The Secret (The Secret, #1)",
+    "yazar": "Rhonda Byrne",
+    "yil": "2013",
+    "puan": 4,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1659289885l/52529._SX98_.jpg"
+  },
+  {
+    "ad": "The Monk Who Sold His Ferrari: A Fable About Fulfilling Your Dreams and Reaching Your Destiny",
+    "yazar": "Robin Sharma",
+    "yil": "2013",
+    "puan": 3,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1388189325l/43877._SX98_.jpg"
+  },
+  {
+    "ad": "The Power of Now: A Guide to Spiritual Enlightenment",
+    "yazar": "Eckhart Tolle",
+    "yil": "2013",
+    "puan": 4,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1689947880l/6708._SX98_.jpg"
+  },
+  {
+    "ad": "The Alchemist",
+    "yazar": "Paulo Coelho",
+    "yil": "2013",
+    "puan": 4,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1483412266l/865._SX98_.jpg"
+  },
+  {
+    "ad": "Anybody Out There? (Walsh Family, #4)",
+    "yazar": "Marian Keyes",
+    "yil": "2013",
+    "puan": 4,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1358594290l/165030._SX98_.jpg"
+  },
+  {
+    "ad": "P.S. I Love You (P.S. I Love You, #1)",
+    "yazar": "Cecelia Ahern",
+    "yil": "2013",
+    "puan": 4,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1392344536l/366522._SX98_.jpg"
+  },
+  {
+    "ad": "Girl with a Pearl Earring",
+    "yazar": "Tracy Chevalier",
+    "yil": "2013",
+    "puan": 4,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1327197580l/2865._SX98_.jpg"
+  },
+  {
+    "ad": "Memoirs of a Geisha",
+    "yazar": "Arthur Golden",
+    "yil": "2013",
+    "puan": 4,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1388367666l/930._SX98_.jpg"
+  },
+  {
+    "ad": "Fifty Shades of Grey (Fifty Shades, #1)",
+    "yazar": "E.L. James",
+    "yil": "2013",
+    "puan": 5,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1385207843l/10818853._SX98_.jpg"
+  },
+  {
+    "ad": "The God Delusion: A Study of Religious Belief and Skepticism",
+    "yazar": "Richard Dawkins",
+    "yil": "2013",
+    "puan": 5,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1347220693l/14743._SX98_.jpg"
+  },
+  {
+    "ad": "Blink: The Power of Thinking Without Thinking",
+    "yazar": "Malcolm Gladwell",
+    "yil": "2013",
+    "puan": 5,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1440763417l/40102._SX98_.jpg"
+  },
+  {
+    "ad": "The Tipping Point: How Little Things Can Make a Big Difference",
+    "yazar": "Malcolm Gladwell",
+    "yil": "2013",
+    "puan": 5,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1473396980l/2612._SX98_.jpg"
+  },
+  {
+    "ad": "The Fellowship of the Ring (The Lord of the Rings, #1)",
+    "yazar": "J.R.R. Tolkien",
+    "yil": "2013",
+    "puan": 5,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1298411339l/34._SX98_.jpg"
+  },
+  {
+    "ad": "Harry Potter and the Sorcerer's Stone (Harry Potter, #1)",
+    "yazar": "J.K. Rowling",
+    "yil": "2013",
+    "puan": 5,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1474154022l/3._SX98_.jpg"
+  },
+  {
+    "ad": "A Time to Kill (Jake Brigance, #1)",
+    "yazar": "John Grisham",
+    "yil": "2013",
+    "puan": 5,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1554303029l/32542._SX98_.jpg"
+  },
+  {
+    "ad": "Angels & Demons (Robert Langdon, #1)",
+    "yazar": "Dan    Brown",
+    "yil": "2013",
+    "puan": 5,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1696691404l/960._SY160_.jpg"
+  },
+  {
+    "ad": "The Girl With the Dragon Tattoo (Millennium, #1)",
+    "yazar": "Stieg Larsson",
+    "yil": "2013",
+    "puan": 5,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1684638853l/2429135._SX98_.jpg"
+  },
+  {
+    "ad": "Cook with Jamie",
+    "yazar": "Jamie Oliver",
+    "yil": "2013",
+    "puan": 4,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1348728611l/823412._SX98_.jpg"
+  },
+  {
+    "ad": "Julie and Julia: 365 Days, 524 Recipes, 1 Tiny Apartment Kitchen",
+    "yazar": "Julie Powell",
+    "yil": "2013",
+    "puan": 4,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1442804846l/13747._SX98_.jpg"
+  },
+  {
+    "ad": "Under the Tuscan Sun: At Home in Italy",
+    "yazar": "Frances Mayes",
+    "yil": "2013",
+    "puan": 5,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1320524083l/480479._SX98_.jpg"
+  },
+  {
+    "ad": "Eat, Pray, Love",
+    "yazar": "Elizabeth Gilbert",
+    "yil": "2013",
+    "puan": 5,
+    "not": "",
+    "kapak": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1503066414l/19501._SX98_.jpg"
   }
 ]

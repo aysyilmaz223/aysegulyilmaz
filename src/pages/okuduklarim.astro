@@ -3,16 +3,29 @@ import BaseLayout from '../layouts/BaseLayout.astro';
 import PageHeader from '../components/PageHeader.astro';
 import kitaplar from '../data/okuduklarim.json';
 import { withBase } from '../utils/url';
+
+// Yıla göre grupla (liste zaten en yeniden eskiye sıralı)
+const gruplar: { yil: string; kitaplar: typeof kitaplar }[] = [];
+const idx: Record<string, number> = {};
+for (const k of kitaplar) {
+  const y = k.yil || 'Tarihsiz';
+  if (!(y in idx)) {
+    idx[y] = gruplar.length;
+    gruplar.push({ yil: y, kitaplar: [] });
+  }
+  gruplar[idx[y]].kitaplar.push(k);
+}
+const toplam = kitaplar.length;
 ---
 
 <BaseLayout
   title="Okuduklarım"
-  description="Okuduğum, bana iz bırakan kitaplar ve kısa notlar."
+  description="Okuduğum kitaplar — Goodreads okuma günlüğümden, yıla göre."
 >
   <PageHeader
     eyebrow="Kitaplık"
     title="Okuduklarım"
-    subtitle="Okuduğum, bana bir şey katan kitaplar ve onlara dair notlarım."
+    subtitle={`Yıllar içinde okuduğum kitaplar — şu ana dek ${toplam} kitap. Goodreads’te tuttuğum okuma günlüğümden.`}
   />
 
   <section class="section">
@@ -21,32 +34,39 @@ import { withBase } from '../utils/url';
         <img src={withBase('/images/okuduklarim.jpg')} alt="Okuduklarım" loading="lazy" />
       </figure>
 
-      <ul class="kitaplar">
-        {
-          kitaplar.map((k) => (
-            <li class="kitap">
-              <div class="kitap__kapak">
-                {k.kapak ? (
-                  <img src={withBase(k.kapak)} alt={`${k.ad} kapağı`} loading="lazy" />
-                ) : (
-                  <span>{k.ad}</span>
-                )}
-              </div>
-              <div class="kitap__govde">
-                <h3 class="kitap__ad">{k.ad}</h3>
-                <p class="kitap__meta">
-                  <span>{k.yazar}</span>
-                  {k.yil && <span class="ayrac"> · {k.yil}</span>}
-                  {k.puan > 0 && (
-                    <span class="kitap__puan"> · {'★'.repeat(k.puan)}{'☆'.repeat(5 - k.puan)}</span>
-                  )}
-                </p>
-                {k.not && <p class="kitap__not">{k.not}</p>}
-              </div>
-            </li>
-          ))
-        }
-      </ul>
+      {
+        gruplar.map((grup) => (
+          <div class="yil-grup">
+            <div class="yil-baslik">
+              <h2>{grup.yil}</h2>
+              <span class="yil-sayi">{grup.kitaplar.length} kitap</span>
+            </div>
+            <ul class="kitaplar">
+              {grup.kitaplar.map((k) => (
+                <li class="kitap">
+                  <div class="kitap__kapak">
+                    {k.kapak ? (
+                      <img src={k.kapak} alt={`${k.ad} kapağı`} loading="lazy" referrerpolicy="no-referrer" />
+                    ) : (
+                      <span>{k.ad}</span>
+                    )}
+                  </div>
+                  <div class="kitap__govde">
+                    <h3 class="kitap__ad">{k.ad}</h3>
+                    <p class="kitap__meta">
+                      <span>{k.yazar}</span>
+                      {k.puan > 0 && (
+                        <span class="kitap__puan"> · {'★'.repeat(k.puan)}{'☆'.repeat(5 - k.puan)}</span>
+                      )}
+                    </p>
+                    {k.not && <p class="kitap__not">{k.not}</p>}
+                  </div>
+                </li>
+              ))}
+            </ul>
+          </div>
+        ))
+      }
     </div>
   </section>
 </BaseLayout>
@@ -64,23 +84,48 @@ import { withBase } from '../utils/url';
     height: auto;
   }
 
+  .yil-grup {
+    max-width: 760px;
+    margin: 0 auto var(--spacing-40);
+  }
+  .yil-baslik {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    gap: var(--spacing-16);
+    position: sticky;
+    top: var(--nav-h);
+    background: var(--color-parchment);
+    padding: var(--spacing-12) 0 var(--spacing-8);
+    border-bottom: 1px solid var(--color-ink);
+    z-index: 1;
+  }
+  .yil-baslik h2 {
+    font-size: 30px;
+    margin: 0;
+  }
+  .yil-sayi {
+    font-size: var(--text-caption);
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: var(--color-bark);
+  }
+
   .kitaplar {
     list-style: none;
-    margin: 0 auto;
+    margin: 0;
     padding: 0;
-    max-width: 760px;
-    border-top: 1px solid var(--color-bone);
   }
   .kitap {
     display: grid;
-    grid-template-columns: 64px 1fr;
-    gap: var(--spacing-20);
-    padding: var(--spacing-20) 0;
+    grid-template-columns: 56px 1fr;
+    gap: var(--spacing-16);
+    padding: var(--spacing-16) 0;
     border-bottom: 1px solid var(--color-bone);
   }
   .kitap__kapak {
-    width: 64px;
-    height: 92px;
+    width: 56px;
+    height: 82px;
     border: 1px solid var(--color-loam);
     border-radius: var(--radius-control);
     background: var(--color-bone);
@@ -97,39 +142,30 @@ import { withBase } from '../utils/url';
   }
   .kitap__kapak span {
     font-family: var(--font-display);
-    font-size: 11px;
-    line-height: 1.3;
+    font-size: 10px;
+    line-height: 1.25;
     color: var(--color-saddle);
-    padding: 4px;
+    padding: 3px;
   }
   .kitap__ad {
-    font-size: 19px;
+    font-size: 17px;
+    line-height: 1.3;
     margin: 0 0 3px;
   }
   .kitap__meta {
     font-size: var(--text-eyebrow);
     color: var(--color-bark);
-    margin: 0 0 var(--spacing-8);
+    margin: 0;
   }
   .kitap__puan {
     color: var(--color-saddle);
     letter-spacing: 1px;
+    white-space: nowrap;
   }
   .kitap__not {
     font-size: var(--text-body);
     line-height: 1.6;
     color: var(--color-saddle);
-    margin: 0;
-  }
-
-  @media (max-width: 480px) {
-    .kitap {
-      grid-template-columns: 52px 1fr;
-      gap: var(--spacing-16);
-    }
-    .kitap__kapak {
-      width: 52px;
-      height: 74px;
-    }
+    margin: var(--spacing-8) 0 0;
   }
 </style>
