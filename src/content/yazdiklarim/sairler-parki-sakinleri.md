@@ -1,0 +1,14 @@
+---
+title: "Şairler Parkı Sakinleri"
+date: 2015-05-05
+tur: "Öykü"
+description: "Bir parkın ağzından, gündüz ve gece müdavimlerinin renkli hikâyesi."
+---
+
+Hoş geldiniz parkımıza. Bu parkın gündüz müdavimleri ile gece müdavimleri ayrıdır.
+
+Gündüz birçok insan sadece kestirme yol olarak kullanıp içinden geçer, bazıları köpeğini gezdirmeye gelir, bazıları ise taa en dipte kendi Cumhuriyet’lerini kurmuş olan kedilere yemek getirir. Hemen üst çıkışımın karşısındaki ilk okul nedeniyle çocuk ziyaretçilerim de çoktur benim. Sabah ayaklarını sürüye sürüye giderler akşam üstü ise buradan hiç gitmek istemezler. Koşmaya, saklambaç oyamaya, kaydıraktan kaymaya doyamazlar bir türlü.  Aşıklar da gelir beni ziyarete... ağaçların altında el ele göz göze oturur mutlu mutlu mırıldanır dururlar birbirlerine. Mutlu eder onları seyretmek. Gün içinde bebek arabalarıyla gelen, çocuğuna evde yemek yediremediği için tası tarağı toplayıp parkta yedirmeye çalışanlar, üst sokak üzerindeki  ofislerden sigara molası vermek için kaçıp bana gelenler, bazan şaşkın turistler... çok renkli geçer benim günlerim. Malum konum itibariyle komşularım da ben de, hepimiz siyah beyaz’a tutkuluyuz, maç oldu mu ziyaretçilerimin rengi de şekli de değişiverir. Kedi Cumhuriyet’inde yerlere yayıp pankartlar hazırlayan mı, tribünleri coşturacak sloganları çalışanlar mı, tshirt, köfte ekmek satanlar ya da maça hazırlık torba torba bira taşıyanlar mı... hepsi ayrı hikaye olur.
+
+Ama bir de el ayak çekilmeye başladığında gelmeye başlayan müdavimlerim vardır ki... Onların hikayleri dinleyenlerin içini burkar. Gece olup hava karadığında lacivert örtü bir çadır gibi sarar çevremi tabi ki benimle birlikte geceyi burada geçirecek olanları da... Ben yalnız kalmadığım için sevinirim ama bir yandan da hikayelerini dinledikçe, bir parçası oldukça üzülür dururum onlar için.  Üzerinde birkaç kat giysisi, elinde torbası, sağdan soldan buldukları battaniyeleriyle gelirler parka.  Gündüz gelip oturan ellerinden telefonlarını düşürmeyen gençlerin aksine konuşacak çok şeyleri vardır bu isimsiz müdavimlerimin.  Birbirlerine taktıkları isimler, ayıklıkla sarhoşluk arasında gidip gelen yarı gerçek yarı kurgu hikayeler, şakalaşmalar, kahkahalar, bazen sitemler, bazen sebepsiz tartışmalar ama hep tatlıya bağlanan nice sohbetler edilir sabaha kadar…Unutulmayan aşklar, ardından ağıt yakılan sevilenler, özlemle anılan uzaktaki aileler neler konuşulur neler. Hele soğuk gecelerde yakılan ateşi etrafında daha da heyecanlı olur o anlatılanlar. Sanırsınız hepsi biraz önce avdan döndüler de başlarından geçenleri anlatıyorlar...
+
+Dedim ya çok renklidir benim müdavimlerim. Her yaştan her telden gelir geçerler gün ve gece boyunca. Aaaa az kalsın unutuyordum bir de parkın isim babası olan şairlerim var banklarda oturan, gelen geçeni karşılayan, seyreden ve tüm bu olup bitenlere benimle birlikte şahit olan. Orhan Veli, Neyzen Tevfik, Necati Cumalı, Oktay Rıfat, Özdemir Asaf...
