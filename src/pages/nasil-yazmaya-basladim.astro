@@ -16,6 +16,9 @@ import { withBase } from '../utils/url';
 
   <article class="section">
     <div class="container">
+      <figure class="lead-foto">
+        <img src={withBase('/images/nasil.jpg')} alt="Nasıl yazmaya başladım" loading="lazy" />
+      </figure>
       <div class="prose">
         <p>
           Yıllar önce gittiğim bir astrolog “sen yazı yazar mısın?” diye
@@ -84,6 +87,17 @@ import { withBase } from '../utils/url';
 </BaseLayout>
 
 <style>
+  .lead-foto {
+    margin: 0 auto var(--spacing-40);
+    max-width: 640px;
+    background: var(--color-pure-white);
+    border: 1px solid var(--color-loam);
+    padding: 8px;
+  }
+  .lead-foto img {
+    width: 100%;
+    height: auto;
+  }
   .devam {
     margin-top: 2em;
     padding-top: 1.4em;
