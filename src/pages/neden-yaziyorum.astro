@@ -23,34 +23,51 @@ const satirlar = [
 
   <article class="section">
     <div class="container">
-      <figure class="lead-foto">
-        <img src={withBase('/images/neden.jpg')} alt="Neden yazıyorum" loading="lazy" />
-      </figure>
-      <ul class="neden">
-        {satirlar.map((s) => <li>{s}</li>)}
-      </ul>
-      <p class="kapanis">Yazmak iyileştirir.</p>
+      <div class="yan-duzen">
+        <figure class="yan-foto">
+          <img src={withBase('/images/neden.jpg')} alt="Neden yazıyorum" loading="lazy" />
+        </figure>
+        <div class="yan-icerik">
+          <ul class="neden">
+            {satirlar.map((s) => <li>{s}</li>)}
+          </ul>
+          <p class="kapanis">Yazmak iyileştirir.</p>
+        </div>
+      </div>
     </div>
   </article>
 </BaseLayout>
 
 <style>
-  .lead-foto {
-    margin: 0 auto var(--spacing-40);
-    max-width: 440px;
+  .yan-duzen {
+    display: grid;
+    grid-template-columns: 220px 1fr;
+    gap: var(--spacing-40);
+    align-items: start;
+    max-width: 920px;
+    margin: 0 auto;
+  }
+  .yan-foto {
     background: var(--color-pure-white);
     border: 1px solid var(--color-loam);
-    padding: 8px;
+    padding: 7px;
   }
-  .lead-foto img {
+  .yan-foto img {
     width: 100%;
     height: auto;
   }
   .neden {
     list-style: none;
-    margin: 0 auto;
+    margin: 0;
     padding: 0;
-    max-width: var(--prose-w);
+  }
+  @media (max-width: 640px) {
+    .yan-duzen {
+      grid-template-columns: 1fr;
+    }
+    .yan-foto {
+      max-width: 280px;
+    }
   }
   .neden li {
     font-size: var(--text-body);

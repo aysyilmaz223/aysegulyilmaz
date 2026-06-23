@@ -16,10 +16,10 @@ import { withBase } from '../utils/url';
 
   <article class="section">
     <div class="container">
-      <figure class="lead-foto">
-        <img src={withBase('/images/nasil.jpg')} alt="Nasıl yazmaya başladım" loading="lazy" />
-      </figure>
       <div class="prose">
+        <figure class="yan-foto">
+          <img src={withBase('/images/nasil.jpg')} alt="Nasıl yazmaya başladım" loading="lazy" />
+        </figure>
         <p>
           Yıllar önce gittiğim bir astrolog “sen yazı yazar mısın?” diye
           sormuştu. Ben de “yooo” diye cevap vermiştim. Ardından “günlük de mi
@@ -87,16 +87,25 @@ import { withBase } from '../utils/url';
 </BaseLayout>
 
 <style>
-  .lead-foto {
-    margin: 0 auto var(--spacing-40);
-    max-width: 440px;
+  .yan-foto {
+    float: left;
+    width: 210px;
+    margin: 6px 26px 12px 0;
     background: var(--color-pure-white);
     border: 1px solid var(--color-loam);
-    padding: 8px;
+    padding: 7px;
   }
-  .lead-foto img {
+  .yan-foto img {
     width: 100%;
     height: auto;
+  }
+  @media (max-width: 560px) {
+    .yan-foto {
+      float: none;
+      width: 100%;
+      max-width: 300px;
+      margin: 0 auto var(--spacing-32);
+    }
   }
   .devam {
     margin-top: 2em;
