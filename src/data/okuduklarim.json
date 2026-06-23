@@ -2,13 +2,17 @@
   {
     "ad": "Yazarak Hafifleyin",
     "yazar": "Yeşim Cimcoz",
+    "yil": "2023",
+    "puan": 5,
     "not": "Yazma yolculuğumun başladığı kitap. Duyguları altı dakikalık yazılarla dökmenin iyileştirici gücü.",
-    "kapak": "/images/foto-7.jpg"
+    "kapak": ""
   },
   {
     "ad": "Kitap adı",
     "yazar": "Yazar adı",
-    "not": "Bu kitap hakkında kısa bir not. Yeni kitap eklemek için src/data/okuduklarim.json dosyasını düzenle. İstersen kapak görseli yolu da ekleyebilirsin (örn. /images/kapak.jpg).",
+    "yil": "",
+    "puan": 0,
+    "not": "Yeni kitap eklemek için src/data/okuduklarim.json dosyasını düzenle. Alanlar: ad, yazar, yil, puan (0–5), not, kapak (örn. /images/kapak.jpg — isteğe bağlı).",
     "kapak": ""
   }
 ]
