@@ -1,0 +1,46 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { withBase } from '../utils/url';
+---
+
+<BaseLayout title="Sayfa bulunamadı" description="Aradığın sayfa bulunamadı.">
+  <section class="hata">
+    <div class="container">
+      <p class="eyebrow">404</p>
+      <h1>Bu sayfa kaybolmuş.</h1>
+      <p class="hata__sub">
+        Aradığın sayfayı bulamadık — belki adres değişti ya da yanlış yazıldı.
+        Buradan devam edebilirsin:
+      </p>
+      <div class="hata__links">
+        <a class="btn btn--primary" href={withBase('/')}>Ana sayfa →</a>
+        <a class="btn btn--ghost" href={withBase('/yazdiklarim')}>Yazdıklarım</a>
+      </div>
+    </div>
+  </section>
+</BaseLayout>
+
+<style>
+  .hata {
+    text-align: center;
+    padding: clamp(64px, 12vw, 140px) 0;
+  }
+  .hata h1 {
+    font-size: clamp(32px, 5vw, 53px);
+    margin: 0 auto;
+    max-width: 14ch;
+  }
+  .hata__sub {
+    max-width: 48ch;
+    margin: var(--spacing-20) auto 0;
+    color: var(--color-saddle);
+    font-size: var(--text-body-lg);
+  }
+  .hata__links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--spacing-12);
+    justify-content: center;
+    margin-top: var(--spacing-32);
+  }
+</style>
