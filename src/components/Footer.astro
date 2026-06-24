@@ -74,7 +74,10 @@ const cols = [
   </div>
   <div class="container footer__base">
     <span>© {year} Ayşegül Yılmaz</span>
-    <a class="footer__top" href="#icerik">Yukarı ↑</a>
+    <span class="footer__legal">
+      <a href={withBase('/gizlilik')}>Gizlilik</a>
+      <a class="footer__top" href="#icerik">Yukarı ↑</a>
+    </span>
   </div>
 </footer>
 
@@ -142,6 +145,17 @@ const cols = [
     border-top: 1px solid var(--color-loam);
     font-size: var(--text-eyebrow);
     color: var(--color-bark);
+  }
+  .footer__legal {
+    display: inline-flex;
+    align-items: center;
+    gap: var(--spacing-20);
+  }
+  .footer__legal a {
+    color: var(--color-saddle);
+  }
+  .footer__legal a:hover {
+    color: var(--color-ink);
   }
   .footer__top {
     color: var(--color-saddle);

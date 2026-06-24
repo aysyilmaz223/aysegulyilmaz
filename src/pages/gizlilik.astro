@@ -1,0 +1,117 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import PageHeader from '../components/PageHeader.astro';
+
+const guncelleme = '24 Haziran 2026';
+const email = 'aysyilmaz@gmail.com';
+---
+
+<BaseLayout
+  title="Gizlilik"
+  description="aysegulyaziyor.com gizlilik bilgilendirmesi — toplanan veriler, çerezler ve KVKK kapsamındaki haklarınız."
+>
+  <PageHeader
+    eyebrow="Bilgilendirme"
+    title="Gizlilik"
+    subtitle={`Bu sayfada, sitemi ziyaret ettiğinde hangi verilerin toplandığını ve haklarını sade bir dille açıklıyorum. Son güncelleme: ${guncelleme}.`}
+  />
+
+  <article class="section">
+    <div class="container">
+      <div class="prose">
+        <p>
+          Merhaba, ben Ayşegül Yılmaz. <strong>aysegulyaziyor.com</strong> benim
+          kişisel web sitem. Burada yazılarımı, okuduklarımı ve fotoğraflarımı
+          paylaşıyorum. Bu site ticari bir hizmet sunmuyor; üyelik, ödeme ya da
+          form üzerinden kişisel veri toplama amacı taşımıyor. Aşağıda yine de
+          ziyaretin sırasında oluşan verileri şeffaflıkla anlatıyorum.
+        </p>
+
+        <h2>Veri sorumlusu</h2>
+        <p>
+          Bu sitenin veri sorumlusu Ayşegül Yılmaz’dır. Her türlü soru ve talep
+          için: <a href={`mailto:${email}`}>{email}</a>
+        </p>
+
+        <h2>Hangi veriler işleniyor?</h2>
+        <p>
+          <strong>1. Ziyaret/analitik verileri (Microsoft Clarity).</strong>
+          Siteyi nasıl kullandığını anlayıp iyileştirebilmek için
+          <a href="https://clarity.microsoft.com/" target="_blank" rel="noopener">Microsoft Clarity</a>
+          adlı analiz aracını kullanıyorum. Clarity; ziyaret edilen sayfalar,
+          tıklamalar, kaydırma hareketleri, yaklaşık konum (IP üzerinden),
+          cihaz ve tarayıcı bilgisi gibi verileri toplar ve ısı haritaları ile
+          anonim oturum kayıtları oluşturabilir. Bu veriler reklam amacıyla
+          kullanılmaz; yalnızca siteyi geliştirmeme yardımcı olur.
+        </p>
+        <p>
+          <strong>2. Sunucu/barındırma günlükleri.</strong> Site
+          <a href="https://www.cloudflare.com/" target="_blank" rel="noopener">Cloudflare Pages</a>
+          üzerinde barındırılıyor. Teknik işletim ve güvenlik için IP adresi,
+          erişim zamanı ve tarayıcı türü gibi standart günlük kayıtları
+          tutulabilir.
+        </p>
+        <p>
+          <strong>3. İletişim.</strong> Bana e-posta gönderirsen, paylaştığın
+          ad ve içerik yalnızca sana yanıt verebilmem için kullanılır; başka bir
+          yerde saklanmaz veya paylaşılmaz.
+        </p>
+
+        <h2>Çerezler</h2>
+        <p>
+          Microsoft Clarity çalışırken tarayıcına çerezler yerleştirebilir. Bu
+          çerezleri tarayıcı ayarlarından dilediğin zaman engelleyebilir ya da
+          silebilirsin; sitenin temel içeriği yine de görüntülenir. Site reklam
+          ya da pazarlama amaçlı çerez kullanmaz.
+        </p>
+
+        <h2>Üçüncü taraf hizmetler ve bağlantılar</h2>
+        <p>
+          Sitenin bazı bölümleri dış hizmetlerden içerik yükler; bu hizmetler
+          kendi gizlilik politikalarına tabidir:
+        </p>
+        <ul>
+          <li>
+            <strong>Microsoft Clarity</strong> — analitik
+            (<a href="https://privacy.microsoft.com/privacystatement" target="_blank" rel="noopener">Microsoft Gizlilik Bildirimi</a>).
+          </li>
+          <li>
+            <strong>Google Fonts</strong> — yazı tipleri Google sunucularından
+            yüklenir; bu sırada tarayıcın Google’a istek gönderir.
+          </li>
+          <li>
+            <strong>Goodreads ve Blogger görselleri</strong> — kitap kapakları
+            ve bazı görseller doğrudan bu servislerin sunucularından gösterilir.
+          </li>
+          <li>
+            <strong>Dış bağlantılar</strong> — bloguma
+            (<a href="https://aysegulyilmaz.blogspot.com/" target="_blank" rel="noopener">Blogspot</a>),
+            <a href="https://www.instagram.com/aysegulyy/" target="_blank" rel="noopener">Instagram</a>
+            ve benzeri sayfalara verdiğim bağlantılar, o platformların kendi
+            gizlilik politikalarına tabidir.
+          </li>
+        </ul>
+        <p>
+          Bu hizmetlerin bir kısmı verileri yurt dışındaki (ör. ABD)
+          sunucularda işleyebilir.
+        </p>
+
+        <h2>KVKK kapsamındaki haklarınız</h2>
+        <p>
+          6698 sayılı Kişisel Verilerin Korunması Kanunu (KVKK) kapsamında;
+          kişisel verilerinin işlenip işlenmediğini öğrenme, bilgi talep etme,
+          düzeltilmesini veya silinmesini isteme ve işlemeye itiraz etme
+          haklarına sahipsin. (Avrupa’dan ziyaret ediyorsan GDPR kapsamında
+          benzer haklara sahipsin.) Bu hakları kullanmak için bana
+          <a href={`mailto:${email}`}>{email}</a> adresinden yazman yeterli.
+        </p>
+
+        <h2>Güncellemeler</h2>
+        <p>
+          Bu bilgilendirme metni zaman zaman güncellenebilir; en güncel hâli her
+          zaman bu sayfada yer alır. Bu metin genel bilgilendirme amaçlıdır.
+        </p>
+      </div>
+    </div>
+  </article>
+</BaseLayout>
